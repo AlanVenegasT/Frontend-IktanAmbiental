@@ -8,7 +8,7 @@ function classNames(...classes) {
 const Header = () => {
   return (
     <>
-       <Disclosure as="nav" className="bg-[#F1F2F2] shadow fixed w-full z-50">
+       <Disclosure as="nav" className="bg-white shadow-xl fixed w-full z-50 ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -17,12 +17,12 @@ const Header = () => {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="LOGO IKTAN AMBIENTAL (1).png"
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    className="hidden h-12 w-auto lg:block"
+                    src="LOGO IKTAN AMBIENTAL (1).png"
                     alt="Your Company"
                   />
                 </div>
@@ -30,25 +30,25 @@ const Header = () => {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-[#109B39] px-1 pt-1 text-sm font-medium text-gray-900"
+                    className="inline-flex items-center border-b-2 border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629] "
                   >
                     Dashboard
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
                   >
                     Team
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
                   >
                     Projects
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
                   >
                     Calendar
                   </a>

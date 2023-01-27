@@ -12,7 +12,7 @@ const Imagen2en1 = () => {
           <ReactCompareSliderImage src="Original.jpg" srcSet="Original.jpg" alt="Image one" />
         }
         itemTwo={
-          <ReactCompareSliderImage src="Termografia-2.jpg" srcSet="Termografia-2.jpg" alt="Image two" />
+          <ReactCompareSliderImage src="Fuga.jpg" srcSet="Fuga.jpg" alt="Image two" />
         }
       />
     </>

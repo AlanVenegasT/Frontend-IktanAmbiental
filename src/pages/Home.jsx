@@ -1,5 +1,7 @@
 import React from 'react'
+import Avion from '../components/Avion'
 import Contacto from '../components/Contacto'
+import Cumplimiento from '../components/Cumplimiento'
 import Hero from '../components/Hero'
 import Imagen2en1 from '../components/Imagen2en1'
 import Somos from '../components/Somos'
@@ -10,8 +12,12 @@ const Home = () => {
     <>
       <Hero/>
       <Somos/>
-      <Tecnologia/>  
+      <Cumplimiento/>  
+      <Tecnologia/> 
+       
+      <Avion/>  
       <Imagen2en1/>
+       
       <Contacto/>  
     </>
   )
