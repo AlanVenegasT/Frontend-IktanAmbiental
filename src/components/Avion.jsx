@@ -81,13 +81,13 @@ function classNames(...classes) {
 const Avion = () => {
   return (
     <>
-      <div className="flex justify-center bg-slate-50 ">
-        <div className="w-1/10 p-9  ">
+      <div className="flex justify-center bg-slate-50 pt-20 ">
+        <div className="w-1/10 p-9 translate-x-[308px] -translate-y-32 ">
           <img
             src=" https://i.imgur.com/TEuzugD.png"
             alt="image"
             
-            width="300"
+            width="350"
             height="50"
           />
         </div>

@@ -29,28 +29,28 @@ const Header = () => {
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
-                    href="#"
+                    href="/"
                     className="inline-flex items-center border-b-2 border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629] "
                   >
-                    Dashboard
+                    Home
                   </a>
                   <a
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
                   >
-                    Team
+                    Nosotros
                   </a>
                   <a
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
                   >
-                    Projects
+                    Como empezar?
                   </a>
                   <a
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
                   >
-                    Calendar
+                    Contacto
                   </a>
                 </div>
               </div>
