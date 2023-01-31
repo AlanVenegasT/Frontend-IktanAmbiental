@@ -10,9 +10,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const timeline = [
   {
     id: 1,
-    content: "LLAMADA DE DESCUBRIMIENTO",
+    content: "REPORTE ANUAL",
     target:
-      "Llámanos mandanos un whats, te tomará menos de un minuto conseguir un experto.",
+      " Elaboración y dictaminación por un Tercero Autorizado.",
     href: "#",
     date: "Paso 01",
     datetime: "Paso 01",
@@ -21,9 +21,9 @@ const timeline = [
   },
   {
     id: 2,
-    content: "DIAGNÓSTICO",
+    content: " INFORME TRIMESTRAL",
     target:
-      "Nuestros expertos en el sector revisarán detalladamente tu situación de cumplimiento regulatorio ante ASEA y te darán una línea de tiempo diseñada especialmente para ti.",
+      "Como resultado de la visita se integra el Anexo IV Informe Trimestral.",
     href: "#",
     date: "Paso 02",
     datetime: "Paso 02",
@@ -32,9 +32,9 @@ const timeline = [
   },
   {
     id: 3,
-    content: "ALTERNATIVAS",
+    content: "VERIFICACIÓN DE LA REPARACIÓN",
     target:
-      "Te presentamos las mejores alternativas del mercado ya que no tenemos compromisos de exclusividad con ninguna aseguradora.",
+      "Se comprueba cada reparación, mediante una inspección técnica coordinada con mantenimiento.",
     href: "#",
     date: "Paso 03",
     datetime: "Paso 03",
@@ -43,9 +43,9 @@ const timeline = [
   },
   {
     id: 4,
-    content: "CONTRATACIÓN",
+    content: "REPARACIÓN",
     target:
-      "Nosotros realizamos todo el proceso de contratación y nos aseguramos de que recibas a tiempo tu póliza y tu factura",
+      "La reparación se coordina con el área de mantenimiento de acuerdo con la normativida de ASEA .",
     href: "#",
     date: "Paso 04",
     datetime: "Paso 04",
@@ -54,8 +54,8 @@ const timeline = [
   },
   {
     id: 5,
-    content: "GESTIÓN Y SEGUIMIENTO",
-    target: "Te ayudamos con el proceso de registro ante la ASEA.",
+    content: "CUANTIFICACIÓN",
+    target: "Una vez que se detecta una fuga, se debe cuantificar. (concentración y volumen).",
     href: "#",
     date: "Paso 05",
     datetime: "Paso 05",
@@ -123,6 +123,8 @@ const Avion = () => {
                             </span>
                           </div>
 
+
+
                           <div className="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
                             <div>
                               <p className="text-sm text-gray-500">
@@ -140,7 +142,13 @@ const Avion = () => {
                                 {event.date}
                               </time>
                             </div>
+
+
+
+
                           </div>
+
+
                         </div>
                       </div>
                     </li>
