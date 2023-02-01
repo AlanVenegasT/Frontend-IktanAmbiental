@@ -81,7 +81,9 @@ function classNames(...classes) {
 const Avion = () => {
   return (
     <>
+      <h2 className="py-10 text-5xl text-[#0B3451] font-bold pl-16  "> <span className="border-b-8 py-6 border-red-500  "> Nuestro </span> proceso</h2>
       <div className="flex justify-center bg-slate-50 pt-20 ">
+        
         <div className="w-1/10 p-9 translate-x-[308px] -translate-y-32 ">
           <img
             src=" https://i.imgur.com/TEuzugD.png"
