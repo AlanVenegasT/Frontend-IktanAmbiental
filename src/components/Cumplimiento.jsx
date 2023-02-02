@@ -3,6 +3,7 @@ import React from "react";
 const Cumplimiento = () => {
   return (
     <>
+    <div className="bg-green-50">
       <h1 className="text-[#00963B] text-4xl font-semibold text-center py-12">
         ASEA{" "}
         <span className="text-[#0C3858] border-b-4 border-[#9DCCB8] py-3">
@@ -12,8 +13,8 @@ const Cumplimiento = () => {
       </h1>
       <div className=" max-w-4xl  mx-auto">
         <img className="relative pb-28 " src="Válvulas.jpg" alt="" />
-        <div className="absolute bg-black/80 h-[500px] w-[600px] -translate-x-40 -translate-y-[550px] shadow-lg">
-          <p className="text-[#FEFEFE] text-lg px-12 text-justify pb-5 pt-12">
+        <div className="absolute bg-black h-[500px] w-[600px] -translate-x-40 -translate-y-[550px] shadow-lg">
+          <p className="text-[#B7B7B7] text-lg px-12 text-justify pb-5 pt-12">
             Los Regulados que realizan actividades de Exploración y Extracción
             de hidrocarburos deben elaborar un Programa de Detección y
             Reparación de Fugas e implementarlo cada tres meses a todos los
@@ -21,7 +22,7 @@ const Cumplimiento = () => {
             fuentes de emisiones de metano.{" "}
           </p>
 
-          <p className="text-[#FEFEFE] text-lg px-12 text-justify py-5">
+          <p className="text-[#B7B7B7] text-lg px-12 text-justify py-5">
             El control de emisiones es fundamental para que la industria cumpla
             con los requisitos reglamentarios ambientales. Las instalaciones
             deben comprender las reglamentaciones específicas que se aplican a
@@ -32,39 +33,37 @@ const Cumplimiento = () => {
       </div>
 
       <div className="flex flex-row max-w-4xl mx-auto ">
-        <img
-          className="basis-1/2  h-64 w-64 rounded-full xl:h-80 xl:w-80 shadow-lg "
-          src="Inspector 2.jpg"
-          alt=""
-        />
-        <div className="basis-1/2  pl-20">
-          <h2 className="text-[#383838] text-3xl pb-3 font-semibold  ">
+
+        
+      </div>
+
+      <div className="flex flex-row">
+        
+        <div className="basis-1/2  pl-48">
+          <h2 className="text-[#383838] text-2xl pb-3 font-semibold  text-end pt-10 pl-48 ">
             Programa para la Detección y Reparación de Fugas (Por sus siglas en
             inglés, LDAR Leak Detection and Repair){" "}
           </h2>
-          <p className="text-justify py-2">
+          <p className="text-justify py-2 text-sm pt-5 pl-48 ">
             Es un proceso reconocido internacionalmente enfocado en localizar y
             reparar las fugas mediante el uso de tecnologías
           </p>
 
-          <p className="text-justify py-2">
+          <p className="text-justify py-2 text-sm pt-0 pl-48 ">
             Contamos con técnicos altamente capacitados en tecnología y equipo
             medioambiental para brindar una respuesta inmediata en la detección
             y reparación de equipos y componentes con fugas.
           </p>
-        </div>
-      </div>
-
-      <div className="flex flex-row">
-        <div className="basis-1/2 ">
-          <h2 className="text-[#383838]  text-end text-5xl font-semibold translate-y-40 ">
-            Etapas LDAR
-          </h2>
+        
+          
         </div>
         <div className="basis-1/2">
           <img className="relative" src="Hojas22.png" alt="" />
-          <div className="flex flex-col absolute bg-white border-2 border-[#F4F4F4] h-[400px] w-[300px] translate-x-20 -translate-y-[450px] shadow-lg">
-            <img className="basis-1/3" src="Inspector 1.jpg" alt="" />
+          <h2 className="text-[#383838]  text-end text-3xl font-semibold -translate-y-[500px] -translate-x-[320px] ">
+            Etapas LDAR
+          </h2> 
+          <div className="flex flex-col absolute bg-white border-2 border-[#F4F4F4] h-[340px] w-[270px] translate-x-40 -translate-y-[490px] shadow-lg">           
+            <img className="basis-1/3 h-12  " src="img2.jpg" alt="" />
             <div className="basis-1/3 py-5 px-5">
               <div className="flex py-2 ">
                 <svg
@@ -133,6 +132,7 @@ const Cumplimiento = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
