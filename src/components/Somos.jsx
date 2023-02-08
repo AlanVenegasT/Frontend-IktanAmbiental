@@ -4,11 +4,11 @@ import React from "react";
 const Somos = () => {
   return (
     <>
-      <div className=" flex flex-row "> {/*padre */}
-        <div className=" basis-1/2 bg-[#AEC90A]  " >{/*hijo1 izquierda */}
+      <div className=" flex flex-row  " id="nosotros"> {/*padre */}
+        <div className=" basis-1/2 bg-WHITE  " >{/*hijo1 izquierda */}
               <img className="w-full h-full relative " src="Plantas3.png" alt="" />
-              <h2 className="text-5xl font-medium text-white absolute translate-x-40 -translate-y-96  ">Quienes somos? </h2>
-              <h2 className="text-6xl font-medium text-white absolute translate-x-40 -translate-y-80 ">IKTAN Ambiental</h2>
+              <h2 className="text-5xl font-medium text-black absolute translate-x-40 -translate-y-96 " >Quienes somos? </h2>
+              <h2 className="text-6xl font-medium text-black absolute translate-x-40 -translate-y-80 ">IKTAN Ambiental</h2>
         </div>
         <h2></h2>
         <div className=" basis-1/2 bg-white text-justify text-sm px-20 py-20 ">{/*hijo2 derecha */}

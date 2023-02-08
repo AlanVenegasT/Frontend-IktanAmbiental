@@ -16,7 +16,7 @@ const Header = () => {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex">
-                <div className="flex flex-shrink-0 items-center px-28">
+                <div className="flex flex-shrink-0 items-center px-20">
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="LOGO IKTAN AMBIENTAL (1).png"
@@ -29,29 +29,41 @@ const Header = () => {
                   />
                 </div>
 
-                <div className="hidden sm:ml-6 sm:flex sm:space-x-8 px-52">
+                <div className="hidden sm:ml-6 sm:flex sm:space-x-8 px-20">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
-                    href="/"
-                    className="inline-flex items-center border-b-2 border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629] "
-                  >
-                    Home
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
+                    href="#nosotros"
+                    className="inline-flex items-center hover:border-b-2 hover:border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629] "
                   >
                     Nosotros
                   </a>
                   <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
+                    href="#cumplimiento"
+                    className="inline-flex items-center hover:border-b-2 hover:border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629]  hover:text-gray-700"
                   >
-                    Como empezar?
+                    Asea Cumplimiento
                   </a>
                   <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#041629] hover:border-gray-300 hover:text-gray-700"
+                    href="#tecnologia"
+                    className="inline-flex items-center hover:border-b-2 hover:border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629]  hover:text-gray-700"
+                  >
+                    Tecnologia
+                  </a>
+                  <a
+                    href="#ntrabajo"
+                    className="inline-flex items-center hover:border-b-2 hover:border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629]  hover:text-gray-700"
+                  >
+                    Nuestro Trabajo
+                  </a>
+                  <a
+                    href="#blog"
+                    className="inline-flex items-center hover:border-b-2 hover:border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629]  hover:text-gray-700"
+                  >
+                    Nuestro Blog
+                  </a>
+                  <a
+                    href="#contacto"
+                    className="inline-flex items-center hover:border-b-2 hover:border-[#109B39] px-1 pt-1 text-sm font-medium text-[#041629]  hover:text-gray-700"
                   >
                     Contacto
                   </a>

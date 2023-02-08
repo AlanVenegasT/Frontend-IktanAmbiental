@@ -32,7 +32,7 @@ const Hero = () => {
                     Emisiones de Metano
                   </p>
 
-                  <div className="absolute bottom-0 left-0 right-0     text-white w-full   ">
+              {/*<div className="absolute bottom-0 left-0 right-0     text-white w-full   ">
                     <div className="bg-transparent">
                       <div className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
                         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
@@ -62,7 +62,7 @@ const Hero = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>*/}
                 </div>
               </div>
             </div>

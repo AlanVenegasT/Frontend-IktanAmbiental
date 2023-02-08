@@ -1,7 +1,7 @@
 const Contacto = () => {
   return (
     <>
-      <section className="text-gray-600 body-font relative">
+      <section className="text-gray-600 body-font relative" id="contacto">
         {/* Titulo */}
         <h1 className="text-[#00963B] text-4xl font-semibold text-center py-12">
           Nos{" "}

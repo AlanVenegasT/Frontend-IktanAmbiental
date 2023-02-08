@@ -1,5 +1,5 @@
 import React from "react";
-import Avion from "../components/Avion";
+
 import Blog from "../components/Blog";
 import Contacto from "../components/Contacto";
 import Cumplimiento from "../components/Cumplimiento";
@@ -18,7 +18,7 @@ const Home = () => {
       <Cumplimiento />
       <Tecnologia />
 
-      <Avion />
+      <Imagen2en1 />
       <NuestroTrabajo />
       <Blog />
       <Contacto />

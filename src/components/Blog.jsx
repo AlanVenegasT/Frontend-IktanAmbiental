@@ -30,7 +30,7 @@ const cards = [
 
 const Blog = () => {
   return (
-    <section className="container mx-auto px-5 py-32 sm:px-6 lg:px-8">
+    <section className="container mx-auto px-5 py-32 sm:px-6 lg:px-8" id="blog">
       {/* Titulo */}
       <h1 className="text-[#00963B] text-4xl font-semibold text-center py-12">
         Nuestro{" "}

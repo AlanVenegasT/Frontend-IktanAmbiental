@@ -37,7 +37,7 @@ const navigation = {
 
 const NuestroTrabajo = () => {
   return (
-    <section className="container mx-auto px-5 sm:px-6 lg:px-8">
+    <section className="container mx-auto px-5 sm:px-6 lg:px-8" id="ntrabajo">
       <h1 className="text-[#00963B] text-4xl font-semibold text-center py-12">
         Nuestro{" "}
         <span className="text-[#0C3858] border-b-4 border-[#9DCCB8] py-3">
