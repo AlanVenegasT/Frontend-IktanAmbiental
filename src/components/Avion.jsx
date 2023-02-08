@@ -4,15 +4,21 @@ import {
   UserIcon,
   ChevronRightIcon,
 } from "@heroicons/react/20/solid";
-import { fa1, fa2, fa3, fa4, fa5, fa6 } from "@fortawesome/free-solid-svg-icons";
+import {
+  fa1,
+  fa2,
+  fa3,
+  fa4,
+  fa5,
+  fa6,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const timeline = [
   {
     id: 1,
     content: "REPORTE ANUAL",
-    target:
-      " Elaboración y dictaminación por un Tercero Autorizado.",
+    target: " Elaboración y dictaminación por un Tercero Autorizado.",
     href: "#",
     date: "Paso 01",
     datetime: "Paso 01",
@@ -55,7 +61,8 @@ const timeline = [
   {
     id: 5,
     content: "CUANTIFICACIÓN",
-    target: "Una vez que se detecta una fuga, se debe cuantificar. (concentración y volumen).",
+    target:
+      "Una vez que se detecta una fuga, se debe cuantificar. (concentración y volumen).",
     href: "#",
     date: "Paso 05",
     datetime: "Paso 05",
@@ -65,7 +72,8 @@ const timeline = [
   {
     id: 6,
     content: "DETECCIÓN",
-    target: " Acorde al artículo 73, la detección de emisiones debe realizarse con equipos OGI u homólogos.",
+    target:
+      " Acorde al artículo 73, la detección de emisiones debe realizarse con equipos OGI u homólogos.",
     href: "#",
     date: "Paso 06",
     datetime: "Paso 06",
@@ -81,19 +89,21 @@ function classNames(...classes) {
 const Avion = () => {
   return (
     <>
-      <h2 className="py-10 text-5xl text-[#0B3451] font-bold pl-16  "> <span className="border-b-8 py-6 border-red-500  "> Nuestro </span> proceso</h2>
+      <h2 className="py-10 text-5xl text-[#0B3451] font-bold pl-16  ">
+        {" "}
+        <span className="border-b-8 py-6 border-red-500  "> Nuestro </span>{" "}
+        proceso
+      </h2>
       <div className="flex justify-center bg-slate-50 pt-20 ">
-        
         <div className="w-1/10 p-9 translate-x-[308px] -translate-y-32 ">
           <img
             src=" https://i.imgur.com/TEuzugD.png"
             alt="image"
-            
             width="350"
             height="50"
           />
         </div>
-        <div class="w-1/2 p-4">
+        <div className="w-1/2 p-4">
           <div className="max-w-7xl mx-auto px-4 pt-10 sm:px-6 lg:px-8">
             {/* We've used 3xl here, but feel free to try other max-widths based on your needs */}
             <div className="max-w-3xl mx-auto">
@@ -125,8 +135,6 @@ const Avion = () => {
                             </span>
                           </div>
 
-
-
                           <div className="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
                             <div>
                               <p className="text-sm text-gray-500">
@@ -144,13 +152,7 @@ const Avion = () => {
                                 {event.date}
                               </time>
                             </div>
-
-
-
-
                           </div>
-
-
                         </div>
                       </div>
                     </li>

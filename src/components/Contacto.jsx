@@ -1,43 +1,106 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
-import { EnvelopeIcon } from '@heroicons/react/20/solid'
-
 const Contacto = () => {
   return (
     <>
-    <div className="bg-white lg:pt-32 lg:pb-20 md:pt-28 md:pb-16 pt-20 pb-8 overflow-hidden">
-      <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 md:max-w-3xl md:grid md:grid-cols-12 md:gap-x-8 md:py-12 md:px-8 lg:max-w-6xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:py-16 lg:px-8  bg-gradient-to-r from-[#FBF5F9] via-[#F0D6E0] to-[#C0A0CF] rounded-md">
-        <div className="md:col-span-6 lg:col-span-5  col-span-6">
-          <h2 className="text-6xl md:text-5xl font-bold tracking-tight text-[#1F2023] text-center">
-            Ponte en contacto con nosotros
-          </h2>
-          <h4 className="text-xl md:text-base text-[#5A585B] py-8 pl-5 md:py-8 md:pl-5 lg:py-8 lg:pl-5">
-          Nuestro compromiso es asesorar oportunamente a nuestros clientes para que tomen la mejor desición en seguros. Siempre la cobertura más completa al menor costo.
-          </h4>
-
-          <Link to="#">
-          <button
-        type="button" 
-        className="inline-flex items-center rounded-md border border-transparent duration-700 hover:scale-110 bg-[#2B2C32] px-6 ml-10 py-3 md:px-5 md:ml-5 md:py-3 md:text-sm text-base font-medium text-[#EAFF6A] shadow-sm hover:bg-[#EAFF6A] focus:outline-none focus:ring-2 hover:text-[#2B2C32] focus:ring-[#2B2C32] focus:ring-offset-2"
-      >
-        <EnvelopeIcon className="-ml-1  h-5 w-10" aria-hidden="true" />
-        Contactanos
-      </button>
-      </Link>
-
-          </div>
-        <div className="mt-16 md:col-span-7 md:col-start-6 md:mt-0 lg:col-span-7 lg:col-start-6 lg:mt-0">
-          <h3 className="sr-only">Recent reviews</h3>
-          <div className="flow-root">
-            <div className="absolute lg:-my-16 lg:pl-32 md:-my-72 md:pl-32 -my-32 pl-64  divide-y text-white divide-gray-200">
-            <img className='object-cover lg:w-1/3 md:w-2/3 w-1/3  ' src="Celular.png" alt="" />
+      <section className="text-gray-600 body-font relative">
+        {/* Titulo */}
+        <h1 className="text-[#00963B] text-4xl font-semibold text-center py-12">
+          Nos{" "}
+          <span className="text-[#0C3858] border-b-4 border-[#9DCCB8] py-3">
+            {" "}
+            Ubicamos{" "}
+          </span>
+        </h1>
+        <div className="container px-5 pb-32 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <iframe
+              width="100%"
+              height="100%"
+              className="absolute inset-0"
+              frameBorder="0"
+              title="map"
+              marginHeight="0"
+              marginWidth="0"
+              scrolling="no"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+            ></iframe>
+            <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+              <div className="lg:w-1/2 px-6">
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                  ADDRESS
+                </h2>
+                <p className="mt-1">
+                  Photo booth tattooed prism, portland taiyaki hoodie neutra
+                  typewriter
+                </p>
+              </div>
+              <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                  EMAIL
+                </h2>
+                <a className="text-green-500 leading-relaxed">
+                  example@email.com
+                </a>
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+                  PHONE
+                </h2>
+                <p className="leading-relaxed">123-456-7890</p>
+              </div>
             </div>
           </div>
-        </div> 
-      </div>
-    </div>
+          <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
+              Contactanos
+            </h2>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              Si requieres informacion adicional sobre el servicio envianos un
+              mensaje.
+            </p>
+            <div className="relative mb-4">
+              <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                Nombre
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div className="relative mb-4">
+              <label
+                htmlFor="email"
+                className="leading-7 text-sm text-gray-600"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div className="relative mb-4">
+              <label
+                htmlFor="message"
+                className="leading-7 text-sm text-gray-600"
+              >
+                Mensaje
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              ></textarea>
+            </div>
+            <button className="text-white bg-[#00963B] border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Contacto
+export default Contacto;

@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import ArticuloBlog from "./components/ArticuloBlog";
+import Pagina404 from "./components/Pag404";
 import AuthLayout from "./layouts/AuthLayout";
 import { IndexLayout } from "./layouts/IndexLayout";
 import Home from "./pages/Home";
@@ -9,6 +11,8 @@ function App() {
       <Routes>
         <Route element={<IndexLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="blog/:title" element={<ArticuloBlog />} />
+          <Route path="pagina-no-encontrada" element={<Pagina404 />} />
         </Route>
       </Routes>
     </BrowserRouter>
