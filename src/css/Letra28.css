@@ -1,0 +1,9 @@
+.stroke {
+    -webkit-text-fill-color: #E7EDF8;
+    -webkit-text-stroke: 1px black;
+    }
+
+.lsize{
+    font-size: 150px;
+    font-weight: 700;
+}

@@ -1,68 +1,47 @@
-import { RModalImages } from "react-modal-images";
-
-const navigation = {
-  imagenes: [
-    {
-      small: "/blog/blog1.jpg",
-      medium: "/blog/blog1.jpg",
-      alt: "An alternate text for this image1",
-    },
-    {
-      small: "/blog/blog1.jpg",
-      medium: "/blog/blog1.jpg",
-      alt: "An alternate text for this image2",
-    },
-    {
-      small: "/blog/blog1.jpg",
-      medium: "/blog/blog1.jpg",
-      alt: "An alternate text for this image3",
-    },
-    {
-      small: "/blog/blog1.jpg",
-      medium: "/blog/blog1.jpg",
-      alt: "An alternate text for this image4",
-    },
-    {
-      small: "/blog/blog1.jpg",
-      medium: "/blog/blog1.jpg",
-      alt: "An alternate text for this image5",
-    },
-    {
-      small: "blog/blog1.jpg",
-      medium: "blog/blog1.jpg",
-      alt: "An alternate text for this image6",
-    },
-  ],
-};
-
 const NuestroTrabajo = () => {
   return (
-    <section className="container mx-auto px-5 sm:px-6 lg:px-8" id="ntrabajo">
-      <h1 className="text-[#00963B] text-4xl font-semibold text-center py-12">
-        Nuestro{" "}
-        <span className="text-[#0C3858] border-b-4 border-[#9DCCB8] py-3">
-          {" "}
-          Trabajo{" "}
-        </span>
-      </h1>
-      {/* Cards */}
-      <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-8 lg:gap-x-8">
-        {navigation.imagenes.map((item, i) => (
-          <div key={i}>
-            <RModalImages
-              className={"w-full h-full object-cover"}
-              hideDownloadButton={true}
-              hideRotateButton={true}
-              hideZoomButton={true}
-              small={item.small}
-              medium={item.medium}
-              // large={"https://dummyimage.com/1020x800/000/aaa"}
-              alt={item.alt}
-            />
+    <>
+      <div className="bg-[#E7EDF8] ">
+        <div className="mx-auto max-w-6xl">
+          <div className="pt-28">
+            {/*Texto */}
+            <h2 className="font-medium text-center text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
+              CASE STUDIES
+            </h2>
+            <h3 className="font-semibold text-4xl text-center px-80 pb-20">
+              Latest showcase and solutions to our customers!
+            </h3>
           </div>
-        ))}
+
+          <div className="">{/*Imagenes */}
+            <div className=" flex flex-row pb-5">{/*Imagenes arriba */}
+              <div className="basis-1/4 px-3">{/*Imagen arriba 1 */}
+                <img className="rounded-lg " src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/15.jpg" alt="" />
+              </div>
+              <div className="basis-2/4 px-2 ">{/*Imagen arriba 2 */}
+               <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/13.jpg" alt="" />
+              </div>
+              <div className="basis-1/4 px-3">{/*Imagen arriba 3 */}
+               <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/3.jpg" alt="" />
+              </div>
+
+            </div>
+            <div className="flex flex-row"> {/*Imagenes abajo */}
+              <div className="basis-1/3 px-3">{/*Imagen abajo 1 */}
+                <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/5.jpg" alt="" />
+              </div>
+              <div className="basis-1/3 px-3">{/*Imagen abajo 2 */}
+               <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/7.jpg" alt="" />
+              </div>
+              <div className="basis-1/3 px-3">{/*Imagen abajo 3 */}
+                <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/8.jpg" alt="" />
+              </div>
+            
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </>
   );
 };
 

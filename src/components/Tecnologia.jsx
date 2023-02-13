@@ -3,43 +3,105 @@ import React from "react";
 const Tecnologia = () => {
   return (
     <>
-      <div className="container mx-auto px-5 sm:px-6 lg:px-8 " id="tecnologia">
-        <h2 className="text-center text-5xl py-5 font-semibold text-[#0C3858] ">Tecnología</h2>
-        <h3 className="text-center px-32 text-2xl pb-8  font-semibold  ">La tecnología OGI (Optical Gas Imaging) <span className="text-[#008C37]"> es considerada una de las mejores prácticas
-          internacionales para la detección de emisiones de metano.</span></h3>
+    <div className="w-full">
 
-        <div className="flex flex-row bg-white  rounded-lg shadow-2xl ">
-          <img className=" basis-auto h-44   " src="Foco.png" alt="" />
-          <div className=" basis-2/3 pl-5">
+    <img className="absolute h-[550px] flex right-0 translate-y-72" src=" Lineas.png " alt="" />
 
-            <p className="px-10 leading-7 pb-5 pt-10 " >Gracias a la tecnología OGI, el sector hidrocarburos puede incorporar un programas
-              más seguros y eficientes. Los inspectores pueden detectar y señalar con absoluta
-              certeza fugas en sus instalaciones, lo que acelera las reparaciones, reduce las
-              emisiones y aumenta la conformidad con las normativas..</p>
-
-          </div>
+     <div className=" mx-auto max-w-7xl"> {/*Div general */}
+      <div className="flex flex-row -translate-y-28 " > {/*Cuadros de texto */}
+        <div className="flex flex-row basis-1/2 bg-gradient-to-r from-[#022391] via-[#0747B6] to-[#0D6ADB] mx-3">
+            <div className="basis-1/3">
+              <img className="h-52 mt-12" src="Libroverde.png" alt="" />
+            </div>
+            <div className="basis-2/3">
+              <h3 className="text-white font-semibold text-2xl pl-5 pt-14 pb-6">Customer satisfaction</h3>
+              <p className="text-white px-5 leading-8 pb-12 text-lg">Pointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose ecstatic and properly.</p>
+            </div>
         </div>
+        <div className="basis-1/2 bg-gradient-to-r from-[#00112E] via-[#0055F1] to-[#0059FC] mx-3 py-4 overflow-hidden ">
+            <div className="relative">
+            <img className="h-72 w-80 translate-x-80 -translate-y-10" src="puntos.png" alt="" />
+            </div>
 
-        <div className="flex flex-row bg-white  mt-8 rounded-lg shadow-2xl ">
-          <div className=" basis-2/3 pl-5">
-            <h4 className="pr-16 pl-16  py-5 leading-7 text-center pt-10 text-xl font-semibold hover:text-[#00963B] " >La cámara termográfica FLIR GFX-320 <span className="text-[#00963E]"> Intrínsecamente Segura </span> es una solución de completa y confiable para detectar fugas.</h4>
-            <p className="pr-5 leading-7 pb-5 text-end text-base " >En comparación con la tecnología tradicional, la utilización de la cámara OGI permite realizar hasta nueve veces más rápido el análisis de detección de fugas. </p>
-            <p className="pr-5 leading-7 text-end text-base " >La cámara OGI es cualitativa por lo que debe vincularse conuna tecnología de acompañamiento para medir índices de fugas de masa (lb/h o g/h) o índices de fugas en volumen (cc/min o L/min).</p>
-          </div>
-          <img className=" basis-1/3 h-80   " src="camara.png" alt="" />
-
-        </div>
-
-        <div className="flex flex-row bg-white  mt-8 rounded-lg shadow-2xl mb-12 ">
-          <img className=" basis-1/3 h-72 " src="Inspector 1.jpg" alt="" />
-          <div className=" basis-2/3 pl-7 ">
-            <h4 className="pr-16 pl-16 pt-10 py-5 leading-7 text-xl text-center font-semibold hover:text-[#00963B] " >Realizar <span className="text-[#00963E]"> inspecciones y verificaciones </span> mediante un equipo OGI asociado a un LDAR reduce significativamente las emisiones de metano.</h4>
-            <p className="pr-5 leading-7 pb-5 text-base " >Permite detectar emisiones de gas desde una distancia segura, por lo que el inspector podrá realizar un escaneo inicial del área de trabajo principal para determinar si hay grandes fugas de gas visibles. </p>
-            <p className="pr-5 leading-7  text-base" >La implementación de un LDAR mediante tecnología OGI no sólo resulta eficaz sino también rentable.</p>
-
+            <div className="absolute -translate-y-72">
+          <h2 className=" text-white text-6xl font-semibold pt-7 pl-8">45 k</h2>
+          <h3 className=" text-white font-semibold pl-8 py-3 text-2xl">Customers worldwide</h3>
+          <p className=" text-white pr-24 pl-8 leading-7 text-lg">Mentioning horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no properly.</p>
           </div>
         </div>
       </div>
+
+      <div className="flex flex-row"> {/*Seccion resdtante */}
+          <div className="basis-1/2">
+          <h2 className="font-medium text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">WHY CHOOSE US</h2>
+          <h3 className="text-4xl font-semibold pr-60 py-6">Our goal is giving the best our customers</h3>
+          <p className="pr-32 leading-8">Jennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now</p>
+          <button type="button" class="inline-flex items-center rounded-md border border-transparent  px-10 py-4 my-2  mr-20 text-base font-medium bg-gradient-to-r from-[#022391] via-[#0747B6] to-[#0D6ADB] text-white shadow-sm ">Button text</button>
+          </div>
+          <div className="basis-1/2">
+            <div className="flex flex-col absolute w-[250px] h-[320px] translate-x-96 rounded-3xl bg-white border-2 border-[#E7E7E7] ">
+              <div className="basis-1/2">
+                  <img className="h-32 pl-14 pt-6" src="Cohete.png" alt="" />
+              </div>
+              <div className="basis-1/2 ">
+                  <h2 className="text-center text-sm">PERFORMANCE</h2>
+                  <h3 className="text-center font-bold text-lg pt-2">incredible </h3>
+                  <h3 className="text-center font-bold text-lg "> Performance</h3>
+                  <h4 className="text-center font-medium pt-4 ">READ MORE</h4>
+              </div>
+            </div>
+
+            <div className="absolute w-[250px] h-[300px] translate-x-28 translate-y-16 rounded-3xl bg-[#F9F9F9] border-2 border-[#E7E7E7] ">
+            <div className="basis-1/2">
+                  <img className="h-32 pl-14 pt-6" src="Cohete.png" alt="" />
+              </div>
+              <div className="basis-1/2 ">
+                  <h2 className="text-center text-sm pt-6">DATABASE</h2>
+                  <h3 className="text-center font-bold text-lg pt-2">Secure database </h3>
+                  <h4 className="text-center font-medium pt-4 ">READ MORE</h4>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+      </div>
+
+      <div className="bg-white border-t-2 border-[#E7E7E7] mt-32">
+      <div className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img className="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
+          </div>
+          <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+            <img
+              className="h-12"
+              src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+              alt="Transistor"
+            />
+          </div>
+          <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+            <img
+              className="h-12"
+              src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
+              alt="Workcation"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+</div>
+     </div>
     </>
   );
 };

@@ -22,13 +22,13 @@ const Header = () => {
             <div class="flex flex-row w-full  items-center justify-center sm:items-stretch sm:justify-start"> {/*Div padre */}
 
               <div class="basis-1/6 "> {/*Div hijo1 */}
-                <img class="block h-full w-auto lg:hidden bg-[#104CBA]" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
-                <img class="hidden h-full w-auto  lg:block bg-[#104CBA]" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
+                <img class="block h-full w-auto lg:hidden py-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
+                <img class="hidden h-full w-auto  lg:block py-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
               </div>
 
               <div class="flex flex-col  sm:block basis-5/6">{/*Div hijo2 */}
 
-                <div className="flex  justify-between w-full bg-[#091D3E] pb-2 pt-4">
+                <div className="flex  justify-between w-full bg-[#091D3E] pb-2 pt-2">
                   <div className="text-white flex">
                     <h2 className=" pl-16 pr-10   ">Need Help? <span className="font-semibold"> Request A Callback</span></h2>
                     <svg xmlns="http://www.w3.org/2000/svg" className="mt-1" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
@@ -45,7 +45,7 @@ const Header = () => {
                 </div>
 
                 <div className="flex justify-between">
-                  <div class="flex space-x-4 py-8">
+                  <div class="flex space-x-4 py-6">
                     <a href="#" class="text-[#232323] font-medium pl-16" aria-current="page">Dashboard</a>
                     <a href="#" class="text-[#232323] font-medium pl-8 ">Team</a>
                     <a href="#" class="text-[#232323] font-medium pl-8 ">Projects</a>
@@ -75,7 +75,7 @@ const Header = () => {
                         <span class="sr-only"> Search </span>
                       </a>
                     </span>
-                    <button type="button" class="inline-flex items-center rounded-md border border-transparent  px-6 py-0 my-2 mr-20 text-base font-medium bg-indigo-500 text-white shadow-sm ">Button text</button>
+                    <button type="button" class="inline-flex items-center rounded-md border border-transparent  px-6 py-0 my-2 mr-20 text-base font-medium bg-gradient-to-r from-[#022391] via-[#0747B6] to-[#0D6ADB] text-white shadow-sm ">Button text</button>
                   </div>
 
                 </div>
