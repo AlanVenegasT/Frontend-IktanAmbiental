@@ -4,47 +4,60 @@ import React from "react";
 const Somos = () => {
   return (
     <>
-      <div className=" flex flex-row  " id="nosotros"> {/*padre */}
-        <div className=" basis-1/2 bg-WHITE  " >{/*hijo1 izquierda */}
-              <img className="w-full h-full relative " src="Plantas3.png" alt="" />
-              <h2 className="text-5xl font-medium text-black absolute translate-x-40 -translate-y-96 " >Quienes somos? </h2>
-              <h2 className="text-6xl font-medium text-black absolute translate-x-40 -translate-y-80 ">IKTAN Ambiental</h2>
-        </div>
-        <h2></h2>
-        <div className=" basis-1/2 bg-white text-justify text-sm px-20 py-20 ">{/*hijo2 derecha */}
-
-        <img className="w-full h-full relative opacity-40" src="Hojas.png" alt="" />
-        
-        <p className="py-3 font-semibold shadow-sm absolute px-20 -translate-x-10 -translate-y-[500px] ">En IKTAN Ambiental, tenemos el compromiso de ofrecer a nuestros clientes la orientación
-        y los servicios necesarios para que logren el cumplimiento en tiempo y forma del Control
-        Integral de Emisiones de Metano.</p>
-        
-        <p className="py-3 font-semibold shadow-sm absolute px-20 -translate-x-10 -translate-y-[430px]  ">Nos especializamos en la regulación de la ASEA para satisfacer las necesidades de nuestros
-        clientes, con los mayores estándares de calidad y competencia. </p>
-
-        <p className="py-3 font-semibold shadow-sm absolute px-20 -translate-x-10 -translate-y-[370px] ">Nuestra experiencia con los reguladores del sector y en campo nos permiten ofrecer soluciones
-        integrales y confiables al mejor costo-beneficio para cumplir con las obligaciones a lo largo del ciclo
-        de vida de un proyecto del sector hidrocarburos.
-        </p>
-
-        <p className="py-3 font-semibold shadow-sm absolute px-20 -translate-x-10 -translate-y-[280px] ">IKTAN es una de las empresas pioneras en
-        el cumplimiento de la regulación de ASEA.</p>
-
-        <p className="py-3 font-semibold shadow-sm absolute  px-20 -translate-x-10 -translate-y-[220px]">Entendemos que cada caso requiere una
-        estrategia puntual y completa para tener
-        éxito.</p>
-
-        <p className="py-3 font-semibold shadow-sm absolute px-20 -translate-x-10 -translate-y-[160px]">Nuestro técnicos realizan la identificación y
-        cuantificación de emisiones de metano,
-        utilizando la mejor tecnología disponible,
-        mientras que nuestros expertos en gestión
-        regulatoria se aseguran que todos los
-        requerimientos de ASEA se cumplan en el
-        momento y se prevean para el futuro.</p>
-        </div>
-        </div>
-
       
+      <div className=" mx-auto max-w-7xl flex flex-row mt-32"> {/*Padre */}
+        <div className=" basis-1/2 ">  {/*Imagen */}
+          <img className="relative" src="https://validthemes.live/themeforest/crysa/assets/img/about/5.jpg" alt="" />
+          <div className="absolute w-[15px] h-[650px] bg-white translate-x-80 -translate-y-[640px]"></div>
+          <div className="absolute w-[320px] h-[70px] bg-white translate-x-80 -translate-y-[640px]"></div>
+
+          <div className="absolute flex flex-row h-[150px] w-[420px] bg-gradient-to-r from-[#022391] via-[#0747B6] to-[#0D6ADB] -translate-x-12 -translate-y-52">
+            <div className="1/4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+            </div>
+            <div className="3/4">
+              <h3 className=" text-white font-semibold pt-5 pb-3 px-3 text-lg">Certified Company</h3>
+              <p className=" text-[#DDDDDD] leading-7 font-semibold  px-3 text-sm ">We adapt our delivery to the way your work, whether as an external provider.</p>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div className=" basis-1/2  pl-20 first-letter:"> {/*Texto */}
+          <div>
+            <h2 className="font-medium text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">WHO WE ARE</h2>
+            <h3 className="pr-40 text-3xl font-bold py-5 leading-10 text-[#232323] ">Preparing for your success trusted source in IT services</h3>
+            <p className="text-[#66667F] leading-7 ">Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose.</p>
+          </div>
+
+          <div className="flex flex-row pt-10 ">
+            <div className="">
+              <div className="flex">
+                <svg className="mt-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <h3 className="pb-2 pl-3 text-xl font-bold text-[#232323]">IT Consultancy</h3>
+              </div>
+              <p className="text-[#66667F] leading-7">Believe fat how six drawing pursuit minute exact dear open to reaching out.</p>
+            </div>
+
+            <div className="">
+              <div className="flex">
+                <svg className="mt-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <h3 className="pb-2 pl-3 text-xl font-bold text-[#232323]">IT Consultancy</h3>
+              </div>
+              <p className="text-[#66667F] leading-7">Believe fat how six drawing pursuit minute exact dear open to reaching out.</p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <h2 className=" font-extrabold pt-0 text-[180px] -mt-8 text-[#ECEEFE] ">28</h2>
+            <h3 className=" pr-56 pt-28 pl-4 font-bold text-[#232323] text-lg ">Years of experience</h3>
+          </div>
+
+
+        </div>
+      </div>
+
     </>
   );
 };
