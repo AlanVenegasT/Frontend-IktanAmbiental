@@ -22,8 +22,8 @@ const Header = () => {
             <div class="flex flex-row w-full  items-center justify-center sm:items-stretch sm:justify-start"> {/*Div padre */}
 
               <div class="basis-1/6 "> {/*Div hijo1 */}
-                <img class="block h-full w-auto lg:hidden py-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
-                <img class="hidden h-full w-auto  lg:block py-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
+                <img class="block h-full w-auto lg:hidden py-6 px-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
+                <img class="hidden h-full w-auto  lg:block py-6 px-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
               </div>
 
               <div class="flex flex-col  sm:block basis-5/6">{/*Div hijo2 */}

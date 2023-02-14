@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/IzquiDerecha.css";
+
 
 const posts = [
   {

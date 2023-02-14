@@ -7,12 +7,9 @@ import {
 const Imagen2en1 = () => {
   return (
     <>
-      <h2 className="text-[#00963B] text-4xl font-semibold text-center py-12">
-        Nuestro{" "}
-        <span className="text-[#0C3858] border-b-4 border-[#9DCCB8] py-3">
-          {" "}
-          Trabajo{" "}
-        </span>
+    <h2 className="font-medium text-lg text-center mt-12 bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">WHO WE ARE</h2>
+      <h2 className="text-black text-4xl font-semibold text-center pt-4 pb-12">
+        Retrospectiva
       </h2>
 
       <ReactCompareSlider

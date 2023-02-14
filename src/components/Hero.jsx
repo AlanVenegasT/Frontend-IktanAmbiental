@@ -1,13 +1,13 @@
-import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
+import HeroSlider, { Overlay, Slide } from "hero-slider";
 
-
-const bogliasco = "/ambiental1.avif";
-const countyClare = "/Cielo azul.jpg";
-const craterRock = "/img8.jpg";
+const bogliasco = "/VálvulasFO.png";
+const countyClare = "/Cielo azulFO.png";
+const craterRock = "/img8FO.png";
 
 export default function Hero() {
   return (
-    <HeroSlider className="pt-18"
+    <>
+     <HeroSlider className="pt-18 bg-black "
       height={"100vh"}
       autoplay
       controller={{
@@ -27,38 +27,49 @@ export default function Hero() {
       }}
     >
       <Overlay>
-        <div className="flex justify-center flex-col w-full h-full">
+
+      <div className="relative flex justify-center flex-col w-full h-full">
           <div className="p-0 uppercase w-full text-center text-5xl md:text-7xl">
-            <h1 className=" text-black/90 font-bold uppercase">INSPECCIÓN OGI</h1>
-            
+            <h1 className=" text-white font-bold uppercase">INSPECCIÓN OGI</h1>
           </div>
           <div className="p-0 w-full text-center text-4xl"> 
-            <h2 className="text-black/90 font-semibold px-64">
+            <h2 className="text-white font-semibold px-64">
               Cumplimiento Normativo con la ASEA
 en materia de Gestión Integral de
 Emisiones de Metano
             </h2>
           </div>
         </div>
+
+
       </Overlay>
 
       <Slide
-        shouldRenderMask
         
+        shouldRenderMask
+       
         background={{
           backgroundImageSrc: craterRock
+          
         }}
+        
+        
+        
       />
 
       <Slide
+        
         shouldRenderMask
         
         background={{
           backgroundImageSrc: bogliasco
         }}
-      />
+
+        
+      /> 
 
       <Slide
+      
         shouldRenderMask
         
         background={{
@@ -67,7 +78,8 @@ Emisiones de Metano
       />
 
 
-      <MenuNav />
+      
     </HeroSlider>
+    </>
   );
 }
