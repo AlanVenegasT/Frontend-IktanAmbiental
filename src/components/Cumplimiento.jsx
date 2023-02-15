@@ -67,20 +67,20 @@ const posts = [
 const Cumplimiento = () => {
   return (
     <>
-      <div className="relative bg-[#EDF1FA] px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-64 mt-20">
+      <div className="relative bg-[#EDF1FA] px-6 pt-16 pb-20 lg:px-8 lg:pt-20 lg:pb-56 mt-20">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-[#E7EDF8] sm:h-2/4" />
         </div>
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
-            <h2 className="font-medium text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
+            <h2 className="font-medium text-base lg:text-base xl:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
               MEET OUR SERVICES
             </h2>
-            <h2 className="text-3xl font-semibold tracking-tight text-[#202020] px-80 sm:text-4xl pt-6">
+            <h2 className="text-3xl lg:text-2xl xl:text-3xl font-semibold tracking-tight text-[#202020] px-80 sm:text-4xl pt-6">
               We offer you all services about professional IT Services
             </h2>
           </div>
-          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-4 ">
+          <div className="mx-auto mt-12  grid max-w-lg gap-5 lg:mt-8 lg:max-w-none lg:grid-cols-4 xl:mt-12 ">
             {posts.map((post) => (
               <div
                 key={post.title}
@@ -93,19 +93,19 @@ const Cumplimiento = () => {
 
                     <a href={post.href} className="mt-2  block">
                       
-                      <p className="mt-3 text-base text-gray-500 leading-7 px-5 ">
+                      <p className="mt-3  text-justify lg:text-sm xl:text-base text-gray-500 leading-7 lg:px-3  xl:px-5  ">
                         {post.description}
                       </p>
                     </a>
                   </div>
-                  <div className="mt-6  border-t-2 border-[#DDDDDD] pt-4 relative z-[1] ml-4 mr-8 ">
+                  <div className="mt-6  border-t-2 border-[#DDDDDD] pt-4 relative z-[1] ml-4 lg:mr-2 xl:mr-8 ">
                     <div className="ml-3">
                       <p className="text-xl font-medium text-gray-900 ">
                         <a
                           href={post.author.href}
                           className="hover:text-[#0D6ADB] duration-500 "
                         >
-                          <div className="flex justify-between items-center ">
+                          <div className="flex justify-between items-center text-base lg:text-sm xl:text-lg ">
                           {post.author.name}
                           <svg xmlns="http://www.w3.org/2000/svg" className=" animate-spin " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0F4FBB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
                           </div>

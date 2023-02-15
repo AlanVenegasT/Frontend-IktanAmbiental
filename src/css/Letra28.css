@@ -3,7 +3,37 @@
     -webkit-text-stroke: 1px black;
     }
 
-.lsize{
-    font-size: 150px;
-    font-weight: 700;
-}
+    .lsize{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    
+    @media only screen and (max-width: 640px) {
+        .lsize {
+            font-size: 60px;
+        }
+    }
+    
+    @media only screen and (min-width: 641px) and (max-width: 768px) {
+        .lsize {
+            font-size: 90px;
+        }
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        .lsize {
+            font-size: 100px;
+        }
+    }
+    
+    @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+        .lsize {
+            font-size: 150px;
+        }
+    }
+    
+    @media only screen and (min-width: 1281px) {
+        .lsize {
+            font-size: 180px;
+        }
+    }

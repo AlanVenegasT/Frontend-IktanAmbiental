@@ -22,8 +22,8 @@ const Header = () => {
             <div class="flex flex-row w-full  items-center justify-center sm:items-stretch sm:justify-start"> {/*Div padre */}
 
               <div class="basis-1/6 "> {/*Div hijo1 */}
-                <img class="block h-full w-auto lg:hidden py-6 px-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
-                <img class="hidden h-full w-auto  lg:block py-6 px-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
+                <img class="block h-full w-auto lg:hidden py-6 px-4 lg:py-8 lg:px-4 xl:py-8 xl:px-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
+                <img class="hidden h-full w-auto  lg:block py-6 px-4 lg:py-8 lg:px-4 xl:py-8 xl:px-4" src="LOGO IKTAN AMBIENTAL.png" alt="Your Company" />
               </div>
 
               <div class="flex flex-col  sm:block basis-5/6">{/*Div hijo2 */}
@@ -45,7 +45,7 @@ const Header = () => {
                 </div>
 
                 <div className="flex justify-between">
-                  <div class="flex space-x-4 py-6">
+                  <div class="flex space-x-4 lg:py-6 xl:py-6">
                     <a href="#" class="text-[#232323] font-medium pl-16" aria-current="page">Dashboard</a>
                     <a href="#" class="text-[#232323] font-medium pl-8 ">Team</a>
                     <a href="#" class="text-[#232323] font-medium pl-8 ">Projects</a>
@@ -56,7 +56,7 @@ const Header = () => {
                     <span class="hidden sm:block">
                       <a
                         href="/search"
-                        class="block border-l-2 border-slate-200 mt-2 mr-8 py-4 pl-6  "
+                        class="block border-l-2 border-slate-200 mt-2 mr-8 py-4 lg:py-2 xl:py-4 pl-6  "
                       >
                         <svg
                           class="h-4 w-4"
