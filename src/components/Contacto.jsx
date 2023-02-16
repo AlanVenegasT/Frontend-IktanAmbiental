@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 const Contacto = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const Contacto = () => {
         {/* Titulo */}
         <img className= "relative w-full" src="curva.png" alt="" />
 
-        <div className="absolute max-w-6xl px-5 pb-0 mx-auto flex sm:flex-nowrap flex-wrap overflowhiden -translate-y-[550px] translate-x-52 lg:-translate-y-[340px] lg:translate-x-0 xl:-translate-y-[530px] xl: lg:xl:left-28 xl:left-28  ">
+        <div className="absolute max-w-6xl px-5 pb-0 mx-auto flex sm:flex-nowrap flex-wrap overflowhiden -translate-y-[550px] translate-x-52 md:-translate-y-[340px] md:-translate-x-12  lg:-translate-y-[340px] lg:translate-x-0 xl:-translate-y-[530px]   lg:left-28 xl:left-28  ">
           <div className="lg:w-2/3 md:w-1/2 bg-transparent rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
            
             <div className="bg-transparent relative flex flex-col pb-28 ">
@@ -16,16 +18,34 @@ const Contacto = () => {
                 </p>
               </div>
               <div className="lg:w-2/2 xl::w-1/2 px-0  mt-4 xl:mt-4 lg:mt-0">
+
+              <div className='flex'>
+                <div className=' '>
+                <img className='h-16 w-auto' src="Email.png" alt="Email" />
+                </div>
+                <div>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4  ">
                   EMAIL
                 </h2>
                 <a className="text-white ">
                 contacto@iktanst.com
                 </a>
+                </div>
+                </div>
+
+              <div className='flex'>
+              <div>
+                <img className='h-16 w-auto mt-2' src="Telefono1.png" alt="" />
+              </div>
+              
+              <div>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   TELÉFONO
                 </h2>
-                <p className="text-white">5589527032</p>
+                <p className="text-white">55-8952-7032</p>
+              </div>
+              </div>
+
               </div>
             </div>
           </div>
@@ -86,8 +106,10 @@ const Contacto = () => {
                   className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                 />
                 <div className="ml-2">
-                  <label htmlFor="same-as-shipping" className="text-sm font-medium text-white lg:text-xs">
-                    Same as shipping information
+                  <label htmlFor="same-as-shipping" className="text-sm font-normal text-white lg:text-xs">
+                  
+                  Al seleccionar esto, usted acepta las <Link to="/Politicas"> <span className="font-bold underline "> Politicas de Privacidad</span>   </Link>             y  <Link to="/Politicas"> <span className="font-bold underline "> Cookie Policy.</span></Link>
+                
                   </label>
                 </div>
               </div>
@@ -96,13 +118,17 @@ const Contacto = () => {
               Enviar <svg className="pt-1 ml-1 " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6"/></svg>
             </button>
 
-            <div className="relative flex flex-row py-6">
-                <div className=" basis-1/2">
-                    <img className=" h-10 w-10 ml-48 lg:ml-36   " src="" alt="" />
+            <div className="relative flex flex-row py-3">
+                <div className=" basis-1/2 ">
+                  <a href="https://api.whatsapp.com/send?phone=5540478317&amp;text=%20Hola!%20Queria%20ponerme%20en%20contacto%20con%20un%20experto%20de%20IKTAN%20Ambiental!">
+                    <img className=" h-16 w-auto ml-48 lg:ml-32 xl:ml-42 " src="WA.png" alt="" />
+                    </a>
                 </div>
                 <div className=" basis-1/2">
-                    <p className="text-white lg:text-xs ">Call for Emergency Assistance</p>
+                    <p className="text-white lg:text-xs mt-2 ">Asistente de WhatsApp</p>
+                    <a href="https://api.whatsapp.com/send?phone=5540478317&amp;text=%20Hola!%20Queria%20ponerme%20en%20contacto%20con%20un%20experto%20de%20IKTAN%20Ambiental!">
                     <p className=" text-white font-bold lg:text-xs xl:text-base ">+5540478317</p>
+                    </a>
                 </div>
 
             </div>

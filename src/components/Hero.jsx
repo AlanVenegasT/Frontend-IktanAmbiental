@@ -29,11 +29,11 @@ export default function Hero() {
       <Overlay>
 
       <div className="relative flex justify-center flex-col w-full h-full">
-          <div className="p-0 uppercase w-full text-center  md:text-7xl">
-            <h1 className=" text-white font-bold uppercase lg:text-5xl xl:text-7+xl">INSPECCIONES OGI</h1>
+          <div className="p-0 uppercase w-full text-center  ">
+            <h1 className=" text-white font-bold uppercase md:text-3xl lg:text-5xl xl:text-7+xl">INSPECCIONES OGI</h1>
           </div>
-          <div className="p-0 w-full text-center text-4xl "> 
-            <h2 className="text-white font-semibold px-64 lg:text-2xl xl:text-4xl ">
+          <div className="p-0 w-full text-center  "> 
+            <h2 className="text-white font-semibold px-64 md:text-lg lg:text-2xl xl:text-4xl ">
             Prevención y Control Integral de Emisiones de Metano para el Sector Hidrocarburos
             </h2>
           </div>

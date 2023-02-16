@@ -30,7 +30,7 @@ const cards = [
 
 const Blog = () => {
   return (
-    <section className="container mx-auto px-5 py-32 lg:py-20 xl:py-32 sm:px-6 lg:px-8" id="blog">
+    <section className="container mx-auto px-5 py-32 lg:py-20 xl:py-28 sm:px-6 lg:px-8" id="blog">
       <h2 className="font-medium text-lg text-center bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">BLOG</h2>
       {/* Titulo */}
       <h1 className="text-[#232323] text-3xl font-bold text-center pb-12">
@@ -55,7 +55,7 @@ const Blog = () => {
               {/* titulo y descripcion de la card */}
               <div className="flex-1">
                 <p className="text-sm font-medium text-cyan-600">
-                  <span className="inline-block bg-[#00963B] rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span className="inline-block bg-gradient-to-r from-[#6FCC36] via-[#6FCC36] to-[#6FCC36] rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                     {card.fecha}
                   </span>
                 </p>

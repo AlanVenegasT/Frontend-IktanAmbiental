@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -46,10 +46,10 @@ const Header = () => {
 
                 <div className="flex justify-between">
                   <div class="flex space-x-4 lg:py-6 xl:py-6">
-                    <a href="#" class="text-[#232323] font-medium pl-16" aria-current="page">Home</a>
-                    <a href="#PPCIEM" class="text-[#232323] font-medium pl-8 ">PPCIEM</a>
-                    <a href="#servicios" class="text-[#232323] font-medium pl-8 ">Servicios</a>
-                    <a href="#contacto" class="text-[#232323] font-medium pl-8 ">Contacto</a>
+                    <Link to="/" class="ml-20 text-[#232323] font-medium hover:rounded-full hover:bg-[#091D3E] hover:text-white duration-700 px-6 py-1 " aria-current="page">Home</Link>
+                    <a href="#PPCIEM" class="text-[#232323] font-medium hover:rounded-full hover:bg-[#091D3E] hover:text-white duration-700 px-6 py-1">PPCIEM</a>
+                    <a href="#servicios" class="text-[#232323] font-medium hover:rounded-full hover:bg-[#091D3E] hover:text-white duration-700 px-6 py-1 ">Servicios</a>
+                    <a href="#contacto" class="text-[#232323] font-medium hover:rounded-full hover:bg-[#091D3E] hover:text-white duration-700 px-6 py-1 ">Contacto</a>
                   </div>
 
                   <div className="pt-5 flex">
@@ -75,7 +75,7 @@ const Header = () => {
                         <span class="sr-only"> Search </span>
                       </a>
                     </span>
-                    <button type="button" class="inline-flex items-center rounded-md border border-transparent  px-6 py-0 my-2 mr-20 text-base font-medium bg-gradient-to-r from-[#022391] via-[#0747B6] to-[#0D6ADB] text-white shadow-sm ">Button text</button>
+                    <button type="button" class="inline-flex items-center rounded-md   px-6 py-0 my-2 mr-20 text-base font-medium bg-gradient-to-b from-[#0C6201] via-[#6FCC36] to-[#B7E163] text-white shadow-sm ">Button text</button>
                   </div>
 
                 </div>

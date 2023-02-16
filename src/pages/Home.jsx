@@ -3,6 +3,7 @@ import React from "react";
 import Blog from "../components/Blog";
 import Contacto from "../components/Contacto";
 import Cumplimiento from "../components/Cumplimiento";
+import Faqs from "../components/Faqs";
 import FondoTexto from "../components/FondoTexto";
 import Hero from "../components/Hero";
 import Imagen2en1 from "../components/Imagen2en1";
@@ -23,6 +24,7 @@ const Home = () => {
       <NuestroTrabajo />
       <FondoTexto/>
       <Blog />
+      <Faqs/>  
       <Contacto />
     </>
   );
