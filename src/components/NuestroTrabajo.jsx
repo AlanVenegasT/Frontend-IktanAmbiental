@@ -8,10 +8,10 @@ const NuestroTrabajo = () => {
           <div className="pt-28 lg:pt-20 xl:pt-28 ">
             {/*Texto */}
             <h2 className="font-medium text-center text-lg xl:text-base lg:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
-              CASE STUDIES
+              CASOS DE EXITO 
             </h2>
             <h3 className="font-semibold text-4xl lg:text-2xl xl:text-4xl text-center px-80 pb-20 lg:pb-12 xl:pb-20">
-              Latest showcase and solutions to our customers!
+            Nuestros clientes son la mejor recomendación
             </h3>
           </div>
 

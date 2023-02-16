@@ -7,9 +7,9 @@ import {
 const Imagen2en1 = () => {
   return (
     <>
-    <h2 className="font-medium text-lg lg:text-base xl:text-lg text-center mt-12 lg:mt-6 xl:mt-12 bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">WHO WE ARE</h2>
+    <h2 className="font-medium text-lg lg:text-base xl:text-lg text-center mt-12 lg:mt-6 xl:mt-12 bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">DETECCION Y CUANTIFICACION</h2>
       <h2 className="text-black text-4xl lg:text-2xl xl:text-4xl font-semibold text-center pt-4 pb-12 lg:pb-8 xl:pb-12 ">
-        Retrospectiva
+      Emisiones de Metano
       </h2>
 
       <ReactCompareSlider

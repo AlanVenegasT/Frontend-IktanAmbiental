@@ -30,13 +30,11 @@ export default function Hero() {
 
       <div className="relative flex justify-center flex-col w-full h-full">
           <div className="p-0 uppercase w-full text-center  md:text-7xl">
-            <h1 className=" text-white font-bold uppercase lg:text-5xl xl:text-7+xl">INSPECCIÓN OGI</h1>
+            <h1 className=" text-white font-bold uppercase lg:text-5xl xl:text-7+xl">INSPECCIONES OGI</h1>
           </div>
           <div className="p-0 w-full text-center text-4xl "> 
             <h2 className="text-white font-semibold px-64 lg:text-2xl xl:text-4xl ">
-              Cumplimiento Normativo con la ASEA
-en materia de Gestión Integral de
-Emisiones de Metano
+            Prevención y Control Integral de Emisiones de Metano para el Sector Hidrocarburos
             </h2>
           </div>
         </div>

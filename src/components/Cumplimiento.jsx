@@ -6,12 +6,12 @@ const posts = [
     title: "Boost your conversion rate",
     href: "#",
     description:
-      "Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose.",
+      "Desarrollo y Gestión de MIA, IP, LAU y Cambio de Uso de Suelo ",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
     readingTime: "6 min",
     author: {
-      name: "Data Center",
+      name: "Impacto Ambiental",
       href: "#",
       imageUrl:
         'Libroverde.png',
@@ -21,12 +21,12 @@ const posts = [
     title: "How to use search engine optimization to drive sales",
     href: "#",
     description:
-    "Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose.",
+    "Detección y cuantificación de emisiones de metano – OGI",
     imageUrl:
       "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
     readingTime: "4 min",
     author: {
-      name: "Cloud Services",
+      name: "PPCIEM",
       href: "#",
       imageUrl:
         'Libroverde.png',
@@ -36,12 +36,12 @@ const posts = [
     title: "Improve your customer experience",
     href: "#",
     description:
-    "Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose.",
+    "Auditorías Internas y Externas; Protocolos de Respuesta a Emergencias",
     imageUrl:
       "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
     readingTime: "11 min",
     author: {
-      name: "Software Development",
+      name: "SASISOPA",
       href: "#",
       imageUrl:
         'Libroverde.png',
@@ -51,12 +51,12 @@ const posts = [
     title: "How to use search engine optimization to drive sales",
     href: "#",
     description:
-    "Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight sang lose.",
+    "Planes de Manejo de Residuos – RP y RMA; Programa de Prevención de Accidentes (PPA)",
     imageUrl:
       "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
     readingTime: "4 min",
     author: {
-      name: "It Managemennt",
+      name: "Residuos",
       href: "#",
       imageUrl:
         'Libroverde.png',
@@ -67,17 +67,17 @@ const posts = [
 const Cumplimiento = () => {
   return (
     <>
-      <div className="relative bg-[#EDF1FA] px-6 pt-16 pb-20 lg:px-8 lg:pt-20 lg:pb-56 mt-20">
+      <div className="relative bg-[#EDF1FA] px-6 pt-16 pb-20 lg:px-8 lg:pt-20 lg:pb-56 mt-20 " id="servicios">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-[#E7EDF8] sm:h-2/4" />
         </div>
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
-            <h2 className="font-medium text-base lg:text-base xl:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
-              MEET OUR SERVICES
+            <h2  className="font-medium text-base lg:text-base xl:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
+            NUESTROS SERVICIOS
             </h2>
             <h2 className="text-3xl lg:text-2xl xl:text-3xl font-semibold tracking-tight text-[#202020] px-80 sm:text-4xl pt-6">
-              We offer you all services about professional IT Services
+            Ofrecemos soluciones para el cumplimiento regulatorio con ASEA
             </h2>
           </div>
           <div className="mx-auto mt-12  grid max-w-lg gap-5 lg:mt-8 lg:max-w-none lg:grid-cols-4 xl:mt-12 ">

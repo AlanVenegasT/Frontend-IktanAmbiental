@@ -10,9 +10,9 @@ const Contacto = () => {
            
             <div className="bg-transparent relative flex flex-col pb-28 ">
               <div className="lg:w-3/3 xl:w-2/3  px-0 ">
-              <h2 className="font-medium xl:text-lg text-lg text-white lg:text-base ">WHO WE ARE</h2>
+              <h2 className="font-medium xl:text-lg text-lg text-white lg:text-base ">ESCRIBENOS</h2>
                 <p className="mt-1  text-2xl font-bold text-white lg:text-xl xl:text-2xl ">
-                To make requests for further information, contact us via our social channels.
+                Siempre hay alguien para ayudarte a responder todas tus dudas.
                 </p>
               </div>
               <div className="lg:w-2/2 xl::w-1/2 px-0  mt-4 xl:mt-4 lg:mt-0">
@@ -20,12 +20,12 @@ const Contacto = () => {
                   EMAIL
                 </h2>
                 <a className="text-white ">
-                  example@email.com
+                contacto@iktanst.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                  PHONE
+                  TELÉFONO
                 </h2>
-                <p className="text-white">123-456-7890</p>
+                <p className="text-white">5589527032</p>
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Contacto = () => {
                 </div>
                 <div className=" basis-1/2">
                     <p className="text-white lg:text-xs ">Call for Emergency Assistance</p>
-                    <p className=" text-white font-bold lg:text-xs xl:text-base ">+4733378901</p>
+                    <p className=" text-white font-bold lg:text-xs xl:text-base ">+5540478317</p>
                 </div>
 
             </div>

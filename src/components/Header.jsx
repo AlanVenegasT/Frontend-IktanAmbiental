@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <>
-      <nav class="bg-white fixed z-50 shadow-md ">
+      <nav class="bg-white fixed z-50 shadow-lg ">
 
         <div class="w-full px-2 sm:px-6 lg:px-0 ">
           <div class="relative flex h-26 items-center justify-between">
@@ -46,10 +46,10 @@ const Header = () => {
 
                 <div className="flex justify-between">
                   <div class="flex space-x-4 lg:py-6 xl:py-6">
-                    <a href="#" class="text-[#232323] font-medium pl-16" aria-current="page">Dashboard</a>
-                    <a href="#" class="text-[#232323] font-medium pl-8 ">Team</a>
-                    <a href="#" class="text-[#232323] font-medium pl-8 ">Projects</a>
-                    <a href="#" class="text-[#232323] font-medium pl-8 ">Calendar</a>
+                    <a href="#" class="text-[#232323] font-medium pl-16" aria-current="page">Home</a>
+                    <a href="#PPCIEM" class="text-[#232323] font-medium pl-8 ">PPCIEM</a>
+                    <a href="#servicios" class="text-[#232323] font-medium pl-8 ">Servicios</a>
+                    <a href="#contacto" class="text-[#232323] font-medium pl-8 ">Contacto</a>
                   </div>
 
                   <div className="pt-5 flex">
