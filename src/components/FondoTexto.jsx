@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const FondoTexto = () => {
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 12000,
+      origin: 'bottom',
+      distance: '-500px'
+
+    });
+  }, []);
   return (
     <>
+    <div ref={revealRef}>
       <div className="relative bg-[#091D3E] mt-20 lg:mt-12 xl:mt-20" id="PPCIEM">
         <div className="relative h-80 overflow-hidden bg-[#091D3E] md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
           <img
@@ -42,6 +54,8 @@ const FondoTexto = () => {
           </div>
         </div>
       </div>
+      </div>
+      
     </>
   );
 };

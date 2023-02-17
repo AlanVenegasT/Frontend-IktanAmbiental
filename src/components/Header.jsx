@@ -1,9 +1,11 @@
 import {Link} from 'react-router-dom';
 
 const Header = () => {
+
   return (
     <>
-      <nav class="bg-white fixed z-50 shadow-lg ">
+     
+      <nav class="bg-white fixed z-50 shadow-lg navbar">
 
         <div class="w-full px-2 sm:px-6 lg:px-0 ">
           <div class="relative flex h-26 items-center justify-between">
@@ -98,6 +100,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      
     </>
   )
 }

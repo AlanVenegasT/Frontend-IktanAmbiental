@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
+
 
 const Tecnologia = () => {
+
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 4000,
+      origin: 'left',
+      distance: '400px'
+
+    });
+  }, []);
+
   return (
     <>
+    <div ref={revealRef}>
     <div className="w-full">
 
     <img className="absolute h-[550px] lg:h-[500px] xl:h-[550px] flex right-0 translate-y-72 lg:translate-y-52 xl:translate-y-72" src=" Lineas.png " alt="" />
@@ -123,6 +139,7 @@ const Tecnologia = () => {
 
 
 </div>
+     </div>
      </div>
     </>
   );

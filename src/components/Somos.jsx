@@ -1,11 +1,25 @@
-import React from "react";
-import "../css/Letra28.css";
+{/*import "../css/Letra28.css";*/}
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 
 
 const Somos = () => {
+
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 3000,
+      origin: 'bottom',
+      distance: '-100px'
+
+    });
+  }, []);
+
   return (
     <>
-      
+      <div ref={revealRef}>
       <div className=" mx-auto md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row max-w-7xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl  mt-32 lg:mt-24 xl:mt-32 "> {/*Padre */}
         <div className=" basis-1/2 ">  {/*Imagen */}
           <img className="relative " src="Inspector 1.jpg" alt="" />
@@ -59,7 +73,7 @@ y los servicios necesarios para que logren el desarrollo exitoso de proyectos en
           </div>
           <p className="font-bold text-xs lg:text-[9px]  xl:text-xs">*Datos de la encuesta digital de satisfacción a diciembre de 2022*</p>
 
-
+          </div>
         </div>
       </div>
 

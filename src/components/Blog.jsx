@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import ArticuloBlog from "./ArticuloBlog";
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const cards = [
   {
@@ -29,7 +31,18 @@ const cards = [
 ];
 
 const Blog = () => {
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 15000,
+      origin: 'right',
+      distance: '-500px'
+
+    });
+  }, []);
   return (
+    <div ref={revealRef}>
     <section className="container mx-auto px-5 py-32 lg:py-20 xl:py-28 sm:px-6 lg:px-8" id="blog">
       <h2 className="font-medium text-lg text-center bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">BLOG</h2>
       {/* Titulo */}
@@ -78,6 +91,7 @@ const Blog = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

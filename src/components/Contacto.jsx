@@ -1,8 +1,21 @@
 import {Link} from 'react-router-dom';
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const Contacto = () => {
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 14000,
+      origin: 'top',
+      distance: '-100px'
+
+    });
+  }, []);
   return (
     <>
+    <div ref={revealRef}>
       <section className="text-gray-600  bg-gradient-to-r from-[#00112F] via-[#0052EA] to-[#0059FC] overflow-hidden lg:pb-20 xl:pb-0" id="contacto">
         {/* Titulo */}
         <img className= "relative w-full" src="curva.png" alt="" />
@@ -136,6 +149,7 @@ const Contacto = () => {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 };

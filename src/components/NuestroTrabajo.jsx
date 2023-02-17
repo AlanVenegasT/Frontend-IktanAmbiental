@@ -1,8 +1,22 @@
 import "../css/EfectoImagen.css";
 
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 const NuestroTrabajo = () => {
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 12000,
+      origin: 'left',
+      distance: '-500px'
+
+    });
+  }, []);
   return (
     <>
+    <div ref={revealRef}>
       <div className="bg-[#E7EDF8] ">
         <div className="mx-auto max-w-6xl -mb-20 pb-20 ">
           <div className="pt-28 lg:pt-20 xl:pt-28 ">
@@ -60,6 +74,7 @@ const NuestroTrabajo = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

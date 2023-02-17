@@ -1,6 +1,7 @@
-import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const faqs = [
   {
@@ -32,8 +33,19 @@ const faqs = [
 ]
 
 const Faqs = () => {
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 12000,
+      origin: 'left',
+      distance: '-400px'
+
+    });
+  }, []);
   return (
     <>
+    <div ref={revealRef}>
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:pt-0 lg:pb-20 lg:px-8">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
@@ -66,7 +78,7 @@ const Faqs = () => {
         </div>
       </div>
     </div>
-    
+    </div>
     </>
   )
 }

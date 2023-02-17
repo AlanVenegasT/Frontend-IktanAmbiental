@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useRef, useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const posts = [
   {
@@ -65,8 +65,20 @@ const posts = [
 ];
 
 const Cumplimiento = () => {
+  const revealRef = useRef(null);
+ 
+  useEffect(() => {
+    ScrollReveal().reveal(revealRef.current, {
+      duration: 3000,
+      origin: 'bottom',
+      distance: '-100px'
+
+    });
+  }, []);
+
   return (
     <>
+    <div ref={revealRef}>
       <div className="relative bg-[#EDF1FA] px-6 pt-16 pb-20 lg:px-8 lg:pt-20 lg:pb-56 mt-20 " id="servicios">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-[#E7EDF8] sm:h-2/4" />
@@ -118,6 +130,7 @@ const Cumplimiento = () => {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </>
   );
