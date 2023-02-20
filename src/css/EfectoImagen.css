@@ -20,11 +20,6 @@
     
 }
 
-@media (min-width: 768px) {
-    .hover{
-        max-width: 500px;
-    }
-  }
 
 .hover:hover img{
     transform: scale(1.6) rotate(10deg);

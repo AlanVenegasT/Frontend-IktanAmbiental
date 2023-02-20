@@ -21,39 +21,39 @@ const Tecnologia = () => {
     <div ref={revealRef}>
     <div className="w-full">
 
-    <img className="absolute h-[550px] lg:h-[500px] xl:h-[550px] flex right-0 translate-y-72 lg:translate-y-52 xl:translate-y-72" src=" Lineas.png " alt="" />
+    <img className="absolute md:hidden  h-[550px] md:h-[500px] lg:h-[500px] xl:h-[550px] flex right-0 translate-y-72 lg:translate-y-52 xl:translate-y-72" src=" Lineas.png " alt="" />
 
-     <div className=" mx-auto max-w-7xl"> {/*Div general */}
-      <div className="flex flex-row -translate-y-28 " > {/*Cuadros de texto */}
+     <div className=" mx-auto md:max-w-2xl lg:max-w-7xl xl:max-w-7xl "> {/*Div general */}
+      <div className=" md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row -translate-y-28 " > {/*Cuadros de texto */}
         <div className="flex flex-row basis-1/2 bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#6FCC36] mx-3">
             <div className="basis-1/3">
               <img className="lg:h-44 lg:mt-8 xl:h-52 xl:mt-12" src="n1053-removebg-preview.png" alt="" />
             </div>
             <div className="basis-2/3">
-              <h3 className="text-white font-semibold text-2xl pl-5 pt-14 pb-6 lg:text-xl lg:pl-5 lg:pt-8 lg:pb-6 xl:text-2xl xl:pl-5 xl:pt-14 xl:pb-6 ">Tercero Autorizado ASEA</h3>
-              <p className="text-white px-5 leading-8 pb-12 text-lg lg:pb-6 lg:text-base xl:pb-12 xl:text-lg ">Somos Tercero Autorizados para emitir los Dictámenes Técnicos y realizar las Evaluaciones Técnicas, para las actividades de exploración y extracción de hidrocarburos en yacimientos convencionales y no convencionales. TA-D-A02/06-16/2021</p>
+              <h3 className="text-white font-semibold text-2xl pl-5 pt-14 pb-6 md:text-xl md:pl-5 md:pt-6 md:pb-3 lg:text-xl lg:pl-5 lg:pt-8 lg:pb-6 xl:text-2xl xl:pl-5 xl:pt-14 xl:pb-6 ">Tercero Autorizado ASEA</h3>
+              <p className="text-white px-5 leading-8 pb-12 text-lg md:pb-6 md:text-base lg:pb-6 lg:text-base xl:pb-12 xl:text-lg ">Somos Tercero Autorizados para emitir los Dictámenes Técnicos y realizar las Evaluaciones Técnicas, para las actividades de exploración y extracción de hidrocarburos en yacimientos convencionales y no convencionales. TA-D-A02/06-16/2021</p>
               
             </div>
         </div>
-        <div className="basis-1/2 bg-gradient-to-r from-[#0C6201] via-[#0C6201] to-[#6FCC36] mx-3 py-4 overflow-hidden ">
+        <div className="basis-1/2 bg-gradient-to-r from-[#0C6201] via-[#0C6201] to-[#6FCC36] mx-3 py-4 md:mt-6 lg:mt-6 xl:mt-6 overflow-hidden ">
             <div className="relative">
-            <img className="h-72 w-80 lg:h-48 lg:w-72 xl:h-72 xl:w-80 -translate-y-10 translate-x-80 lg:translate-x-56 xl:translate-x-80" src="puntos.png" alt="" />
+            <img className="h-72 w-80 md:h-40 md:w-80 lg:h-48 lg:w-72 xl:h-72 xl:w-80 -translate-y-10 translate-x-80 lg:translate-x-56 xl:translate-x-80" src="puntos.png" alt="" />
             </div>
 
-            <div className="absolute -translate-y-72 lg:-translate-y-48 xl:-translate-y-72">
-          <h2 className=" text-white font-semibold text-6xl pt-7 pl-8 lg:text-4xl lg:pt-4 lg:pl-8 xl:text-6xl xl:pt-7 xl:pl-8">ACE-STPS</h2>
-          <h3 className=" text-white font-semibold pl-8 py-3 text-2xl lg:pl-8 lg:py-3 lg:text-xl xl:pl-8 xl:py-3 xl:text-2xl">Capacitación Especializada</h3>
-          <p className=" text-white pr-24 pl-8 leading-7 text-lg lg:text-base xl:text-lg">Agente Capacitador Externos ante la Secretaría del Trabajo y Previsión Social, para el cumplimiento de las obligaciones de la Ley Federal del Trabajo.</p>
+            <div className="absolute -translate-y-72 md:-translate-y-44 lg:-translate-y-48 xl:-translate-y-72">
+          <h2 className=" text-white font-semibold text-6xl pt-7 pl-8 md:text-3xl md:pt-4 md:pl-8 lg:text-4xl lg:pt-4 lg:pl-8 xl:text-6xl xl:pt-7 xl:pl-8">ACE-STPS</h2>
+          <h3 className=" text-white font-semibold pl-8 py-3 text-2xl md:pl-8 md:py-2 md:text-lg lg:pl-8 lg:py-3 lg:text-xl xl:pl-8 xl:py-3 xl:text-2xl">Capacitación Especializada</h3>
+          <p className=" text-white pr-24 pl-8 leading-7 text-lg md:text-base lg:text-base xl:text-lg">Agente Capacitador Externos ante la Secretaría del Trabajo y Previsión Social, para el cumplimiento de las obligaciones de la Ley Federal del Trabajo.</p>
           </div>
         </div>
       </div>
 
 
 
-      <div className="flex flex-row"> {/*Seccion restante */}
+      <div className=" md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row "> {/*Seccion restante */}
           <div className="basis-1/2 lg:pl-12 xl:pl-0 ">
-          <h2 className="font-medium text-lg lg:text-base xl:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">Tu mejor elección</h2>
-          <h3 className=" text-4xl lg:text-2xl xl:text-4xl font-semibold pr-60 lg:pr-52 xl:pr-60 py-6 lg:py-3 xl:py-6">Somos la decisión correcta para resultados excepcionales.</h3>
+          <h2 className="font-medium text-lg md:text-base lg:text-base xl:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">TU MEJOR ELECCIÓN</h2>
+          <h3 className=" text-4xl md:text-2xl lg:text-2xl xl:text-4xl font-semibold pr-60 md:pr-52 lg:pr-52 xl:pr-60 py-6 lg:py-3 xl:py-6">Somos la decisión correcta para resultados excepcionales.</h3>
           
           <div className="flex">
           <img className="h-6 mr-2 " src="comillasSF.png" alt="comillas" />
@@ -71,29 +71,29 @@ const Tecnologia = () => {
         
         
         <a href="#faqs">
-          <button type="button" class="inline-flex items-center rounded-md   px-12 py-4 my-8  mr-20 text-base font-medium bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] text-white shadow-sm ">FAQs</button>
+          <button type="button" class="inline-flex items-center rounded-md   px-12 py-4 my-8  mr-20 md:mb-64 lg:mb-64 xl:mb-64 text-base font-medium bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] text-white shadow-sm ">FAQs</button>
           </a>
           </div>
           <div className="basis-1/2">
-            <div className="flex flex-col absolute w-[250px] h-[320px] lg:w-[200px] lg:h-[280px] xl:w-[250px] xl:h-[320px] xl:translate-x-96 lg:translate-x-60  rounded-3xl bg-white border-2 border-[#E7E7E7] ">
+            <div className="flex flex-col absolute w-[250px] h-[320px] md:w-[250px]  md:h-[320px]  lg:w-[200px] lg:h-[280px] xl:w-[250px] xl:h-[320px] md:-translate-y-56 md:translate-x-96 lg:translate-x-60 xl:translate-x-96 rounded-3xl bg-white border-2 border-[#E7E7E7] ">
               <div className="basis-1/2">
-                  <img className="h-32 pl-14 pt-6" src="Cohete.png" alt="" />
+                  <img className=" h-32 pl-14 pt-6" src="Cohete.png" alt="" />
               </div>
               <div className="basis-1/2 ">
                   <h2 className="text-center text-sm">CONFIANZA</h2>
-                  <h3 className="text-center font-bold text-lg lg:text-base xl:text-lg pt-2">Seguro de Responsabilidad </h3>
-                  <h3 className="text-center font-bold text-lg lg:text-base xl:text-lg "> Profesional</h3>
+                  <h3 className="text-center font-bold text-lg md:text-sm lg:text-base xl:text-lg pt-2">Seguro de Responsabilidad </h3>
+                  <h3 className="text-center font-bold text-lg md:text-sm lg:text-base xl:text-lg "> Profesional</h3>
                   <h4 className="text-center font-medium pt-4 ">READ MORE</h4>
               </div>
             </div>
 
-            <div className="absolute w-[250px] h-[300px] lg:w-[200px] lg:h-[320px] xl:w-[250px] xl:h-[350px] translate-x-0 lg:translate-x-0 xl:translate-x-24 translate-y-16 rounded-3xl bg-[#F9F9F9] border-2 border-[#E7E7E7] ">
+            <div className="absolute w-[250px] h-[300px] md:w-[250px] md:h-[320px] lg:w-[200px] lg:h-[320px] xl:w-[250px] xl:h-[350px]  translate-x-0 md:-translate-y-56 md:translate-x-10 lg:translate-x-0 xl:translate-x-24 translate-y-16 rounded-3xl bg-[#F9F9F9] border-2 border-[#E7E7E7] ">
             <div className="basis-1/2">
                   <img className="h-32 pl-14 pt-6" src="Cohete.png" alt="" />
               </div>
               <div className="basis-1/2 ">
                   <h2 className="text-center text-sm pt-6">DESEMPEÑO</h2>
-                  <h3 className="text-center font-bold text-lg lg:text-base xl:text-lg pt-2">Líderes en cumplimiento para actividades de Exploración y Extracción en ASEA</h3>
+                  <h3 className="text-center font-bold text-lg md:text-sm lg:text-base xl:text-lg pt-2">Líderes en cumplimiento para actividades de Exploración y Extracción en ASEA</h3>
                   <h4 className="text-center font-medium pt-4 ">READ MORE</h4>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Tecnologia = () => {
       <div className="bg-white border-t-2 border-[#E7E7E7] mt-32">
       <div className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
-          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+          <div className="col-span-1 flex justify-center md:col-span-4 lg:col-span-1">
             <a href="https://iktanstrategies.com/">
             <img className="h-16 grayscale hover:grayscale-0 duration-700 hover:scale-105" src="LOGO IKTAN STRATEGIES.jpg" alt="IKTAN STRATEGIES.jpg" />
             </a>

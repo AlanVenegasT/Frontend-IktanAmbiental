@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import Blog from "../components/Blog";
 import Contacto from "../components/Contacto";
 import Cumplimiento from "../components/Cumplimiento";
@@ -26,6 +27,7 @@ const Home = () => {
       <FondoTexto/>
       <Blog />
       <Faqs/>  
+     
       <Contacto />
     </>
   );

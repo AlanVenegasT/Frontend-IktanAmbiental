@@ -47,7 +47,7 @@ const Faqs = () => {
     <>
     <div ref={revealRef}>
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:pt-0 lg:pb-20 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 md:pt-0 lg:pt-0 lg:pb-20 lg:px-8">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <h2 className="text-4xl font-bold leading-10 tracking-tight text-black text-center" id='faqs'>Preguntas frecuentes</h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">

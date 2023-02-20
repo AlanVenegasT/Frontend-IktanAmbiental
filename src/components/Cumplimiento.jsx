@@ -79,7 +79,7 @@ const Cumplimiento = () => {
   return (
     <>
     <div ref={revealRef}>
-      <div className="relative bg-[#EDF1FA] px-6 pt-16 pb-20 lg:px-8 lg:pt-20 lg:pb-56 mt-20 " id="servicios">
+      <div className="relative bg-[#EDF1FA] px-6 pt-12 pb-20 md:pb-48 lg:px-8 lg:pt-20 lg:pb-56 mt-20 " id="servicios">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-[#E7EDF8] sm:h-2/4" />
         </div>
@@ -88,29 +88,29 @@ const Cumplimiento = () => {
             <h2  className="font-medium text-base lg:text-base xl:text-lg bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
             NUESTROS SERVICIOS
             </h2>
-            <h2 className="text-3xl lg:text-2xl xl:text-3xl font-semibold tracking-tight text-[#202020] px-80 sm:text-4xl pt-6">
+            <h2 className="text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-semibold tracking-tight text-[#202020] md:px-36 lg:px-80 xl:px-80 sm:text-4xl pt-6">
             Ofrecemos soluciones para el cumplimiento regulatorio con ASEA
             </h2>
           </div>
-          <div className="mx-auto mt-12  grid max-w-lg gap-5 lg:mt-8 lg:max-w-none lg:grid-cols-4 xl:mt-12 ">
+          <div className="mx-auto mt-12  grid max-w-lg gap-5 md:mt-8 md:max-w-none md:grid-cols-2   lg:mt-8 lg:max-w-none lg:grid-cols-4 xl:mt-12 ">
             {posts.map((post) => (
               <div
                 key={post.title}
                 className="flex flex-col overflow-hidden   "
               >
-                <div className="flex flex-1 flex-col justify-between rounded-xl relative overflow-hidden h-full bg-[400%] text-white mx-4 px-4  py-7   hover:before:scale-x-100 hover:text-[blue] before:content-[''] before:absolute before:origin-[0_50%] before:w-full before:h-[inherit] before:transition-all before:duration-[0.475s] before:rounded-[inherit] before:scale-x-0 before:left-0 before:top-0 bg-transparent before:bg-white ">
+                <div className="flex flex-1 flex-col justify-between rounded-xl relative overflow-hidden h-full bg-[400%] text-white mx-10 md:mx-12 md:px-4 py-5 md:py-7 lg:mx-4 lg:px-4 lg:py-7 xl:mx-4 xl:px-4 xl:py-7   hover:before:scale-x-100 hover:text-[blue] before:content-[''] before:absolute before:origin-[0_50%] before:w-full before:h-[inherit] before:transition-all before:duration-[0.475s] before:rounded-[inherit] before:scale-x-0 before:left-0 before:top-0 bg-transparent before:bg-white ">
                   <div className="flex-1 relative z-[1]">
 
                   <img className="h-20 w-20 rounded-full ml-4" src={post.author.imageUrl} alt="" />
 
                     <a href={post.href} className="mt-2  block">
                       
-                      <p className="mt-3  text-justify lg:text-sm xl:text-base text-gray-500 leading-7 lg:px-3  xl:px-5  ">
+                      <p className="mt-3  text-justify text-sm md:text-sm lg:text-sm xl:text-base text-gray-500 leading-7 px-8 md:px-8 lg:px-3  xl:px-5  ">
                         {post.description}
                       </p>
                     </a>
                   </div>
-                  <div className="mt-6  border-t-2 border-[#DDDDDD] pt-4 relative z-[1] ml-4 lg:mr-2 xl:mr-8 ">
+                  <div className="mt-6  border-t-2 border-[#DDDDDD] pt-4 relative z-[1] ml-4 mr-2 md:mr-2 lg:mr-2 xl:mr-8 ">
                     <div className="ml-3">
                       <p className="text-xl font-medium text-gray-900 ">
                         <a

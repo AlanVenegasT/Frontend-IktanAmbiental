@@ -44,9 +44,9 @@ const Blog = () => {
   return (
     <div ref={revealRef}>
     <section className="container mx-auto px-5 py-32 lg:py-20 xl:py-28 sm:px-6 lg:px-8" id="blog">
-      <h2 className="font-medium text-lg text-center bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">BLOG</h2>
+      <h2 className="font-medium md:text-base text-lg text-center bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">BLOG</h2>
       {/* Titulo */}
-      <h1 className="text-[#232323] text-3xl font-bold text-center pb-12">
+      <h1 className="text-[#232323] md:text-2xl text-3xl font-bold text-center pb-12 md:pb-6">
       Últimas noticias y artículos
       </h1>
       <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-8 lg:gap-x-8  ">
