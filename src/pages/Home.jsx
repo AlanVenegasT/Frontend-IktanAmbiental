@@ -12,7 +12,6 @@ import NuestroTrabajo from "../components/NuestroTrabajo";
 import Somos from "../components/Somos";
 import Tecnologia from "../components/Tecnologia";
 
-
 const Home = () => {
   return (
     <>
@@ -27,7 +26,6 @@ const Home = () => {
       <FondoTexto/>
       <Blog />
       <Faqs/>  
-     
       <Contacto />
     </>
   );

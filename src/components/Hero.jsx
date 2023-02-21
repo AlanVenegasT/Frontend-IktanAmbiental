@@ -33,7 +33,7 @@ export default function Hero() {
             <h1 className=" text-white font-bold uppercase text-2xl md:text-3xl lg:text-5xl xl:text-7+xl">INSPECCIONES OGI</h1>
           </div>
           <div className="p-0 w-full text-center  "> 
-            <h2 className="text-white font-semibold px-40 md:px-64 lg:px-64 xl:px-64 text-base md:text-lg lg:text-2xl xl:text-4xl ">
+            <h2 className="text-white font-semibold  md:px-64 lg:px-64 xl:px-64 text-base md:text-lg lg:text-2xl xl:text-4xl ">
             Prevención y Control Integral de Emisiones de Metano para el Sector Hidrocarburos
             </h2>
           </div>

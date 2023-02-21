@@ -79,7 +79,7 @@ const Cumplimiento = () => {
   return (
     <>
     <div ref={revealRef}>
-      <div className="relative bg-[#EDF1FA] px-6 pt-12 pb-20 md:pb-48 lg:px-8 lg:pt-20 lg:pb-56 mt-20 " id="servicios">
+      <div className="relative bg-[#EDF1FA] px-6 pt-12 pb-20 md:pb-48 lg:px-8 lg:pt-14 lg:pb-56 mt-14 " id="servicios">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-[#E7EDF8] sm:h-2/4" />
         </div>

@@ -100,7 +100,7 @@ const Contacto = () => {
             </div>
 
             <form ref={form} onSubmit={e=>handleSubmit(e)} >
-            <div className="xl:mt-12 xl:w-2/3 xl:px-0  lg:w-2/3 lg:px-12 lg:mt-2 md:w-1/2 bg-transparent flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 ">
+            <div className="xl:mt-12 xl:w-2/3 xl:px-0  lg:w-2/3 lg:px-0 lg:mr-12 lg:mt-2 md:w-1/2 bg-transparent flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 ">
               <div className="flex flex-row">
                 <div className="basis-1/2 relative mb-4 pr-4">
                   <label
@@ -166,12 +166,12 @@ const Contacto = () => {
                 <div className="ml-2">
                   <label
                     htmlFor="same-as-shipping"
-                    className="text-sm font-normal text-white lg:text-xs"
+                    className=" text-sm font-normal text-white md:text-xs lg:text-xs"
                   >
                     Al seleccionar esto, usted acepta las{" "}
                     <Link to="/Politicas">
                       {" "}
-                      <span className="font-bold underline ">
+                      <span className="font-bold md:text-xs lg:text-xs underline ">
                         {" "}
                         Politicas de Privacidad
                       </span>{" "}
@@ -179,7 +179,7 @@ const Contacto = () => {
                     y{" "}
                     <Link to="/Politicas">
                       {" "}
-                      <span className="font-bold underline ">
+                      <span className="font-bold underline  md:text-xs lg:text-xs">
                         {" "}
                         Cookie Policy.
                       </span>
@@ -213,18 +213,18 @@ const Contacto = () => {
                 <div className=" basis-1/2 ">
                   <a href="https://api.whatsapp.com/send?phone=5540478317&amp;text=%20Hola!%20Queria%20ponerme%20en%20contacto%20con%20un%20experto%20de%20IKTAN%20Ambiental!">
                     <img
-                      className=" h-16 w-auto ml-48 md:ml-28 lg:ml-32 xl:ml-42 "
+                      className=" h-16 w-auto ml-48 md:ml-6 lg:ml-16 xl:ml-42 "
                       src="WA.png"
                       alt=""
                     />
                   </a>
                 </div>
                 <div className=" basis-1/2">
-                  <p className="text-white lg:text-xs mt-2 ">
+                  <p className="text-white md:text-xs lg:text-xs mt-2 ">
                     Asistente de WhatsApp
                   </p>
                   <a href="https://api.whatsapp.com/send?phone=5540478317&amp;text=%20Hola!%20Queria%20ponerme%20en%20contacto%20con%20un%20experto%20de%20IKTAN%20Ambiental!">
-                    <p className=" text-white font-bold lg:text-xs xl:text-base ">
+                    <p className=" text-white font-bold md:text-xs lg:text-xs xl:text-base ">
                       +5540478317
                     </p>
                   </a>

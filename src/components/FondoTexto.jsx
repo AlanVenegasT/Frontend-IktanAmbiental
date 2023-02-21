@@ -16,7 +16,7 @@ const FondoTexto = () => {
     <>
     <div ref={revealRef}>
       <div className="relative bg-[#091D3E] mt-20 md:mt-0 lg:mt-12 xl:mt-20" id="PPCIEM">
-        <div className="relative  h-80 overflow-hidden bg-[#091D3E] md:absolute md:left-0 md:h-full md:w-3/3 md:blur-md lg:w-1/2">
+        <div className="relative  h-80 overflow-hidden bg-[#091D3E] md:absolute md:left-0 md:h-full md:w-3/3 md:blur-md lg:blur-0 lg:w-1/2">
           <img
             className="mt-0 h-[700px] translate-x-16 lg:mt-20 lg:h-[500px] lg:translate-x-16 xl:mt-0 xl:h-[700px] xl:translate-x-16  object-cover  "
             src="camara.png"
@@ -25,7 +25,7 @@ const FondoTexto = () => {
         </div>
 
 
-        <div className="relative mx-auto max-w-7xl py-24 sm:py-32 md:py-20 lg:py-24 lg:px-8">
+        <div className="relative mx-auto max-w-7xl py-24 sm:py-32 md:py-20 lg:left-1/3 lg:ml-12 lg:py-24 lg:px-8">
           <div className="pr-6 pl-6 md:w-3/3 md:pl-16 md:mx-20 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
             <h3 className="font-medium text-lg md:text-center md:text-base bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
               PPCIEM
