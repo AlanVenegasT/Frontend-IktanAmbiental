@@ -292,13 +292,13 @@ const Header = () => {
                     </Disclosure.Button>
                   </div>
                   <div className="flex flex-shrink-0 items-center">
-                  <Link to="/">
+                  
                     <img
                       className="block h-2/3 w-auto lg:hidden"
                       src="LOGO IKTAN AMBIENTAL.png"
                       alt="Your Company"
                     />
-                  </Link>
+                  
                     <img
                       className="hidden h-8 w-auto lg:block"
                       src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
