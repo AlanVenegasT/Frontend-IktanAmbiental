@@ -61,22 +61,23 @@ const Header = () => {
               <div class="basis-1/6 ">
                 {" "}
                 {/*Div hijo1 */}
-              <Link to="/">
+
                 <img
                   class="block h-full w-auto lg:hidden py-6 px-4 lg:py-8 lg:px-4 xl:py-8 xl:px-4"
                   src="LOGO IKTAN AMBIENTAL.png"
                   alt="Your Company"
                 />
-              </Link>
+            
 
-              <Link to="/">
+           
                 <img
                   class="hidden h-full w-auto  lg:block py-6 px-4 lg:py-8 lg:px-4 xl:py-8 xl:px-4"
                   src="LOGO IKTAN AMBIENTAL.png"
                   alt="Your Company"
                 />
-                </Link>
+              
               </div>
+
               <div class="flex flex-col  sm:block basis-5/6">
                 {/*Div hijo2 */}
 
