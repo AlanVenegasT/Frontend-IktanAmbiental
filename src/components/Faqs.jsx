@@ -5,29 +5,64 @@ import ScrollReveal from 'scrollreveal';
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: "1. ¿Por dónde comienzo a regularizarme?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Siempre recomendaré cumplir al 100%, pero si tiene que elegir, elija los trámites habilitantes: permisos, trámites ambientales y SASISOPA.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "2. ¿Existe una “Lista Negra” en ASEA?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Existe un seguimiento de acuerdo al nivel de riesgo de los Regulados, no lo describiría como una “lista negra”, más bien como el resultado lógico del seguimiento de la autoridad.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "3. ¿Cómo sé si estoy en la “Lista Negra”?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Reiterando que no existe una “Lista Negra”, si recibe un apercibimiento, una orden de inspección o alguna otra acción por parte del Regulador, es porque alguien se quiere asegurar que está cumpliendo las reglas.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "4. ¿Qué debo hacer ante una inspección?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Primero le diré que NO hacer, nunca le impida el paso a la autoridad. Después, atienda el proceso con la mayor atención. Los malos entendidos son la primera causa de incumplimiento. ",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "5. ¿Se pueden acelerar los trámites?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "En general, desconfíe si le ofrecen acelerar su trámite. Siempre elija una estrategia fundada y motivada, elija experiencia y profesionalismo. Lo barato sale caro.",
+  },
+  {
+    question: "6. ¿Se puede hacer el trabajo en menos tiempo?",
+    answer:
+      "Sí, siempre se puede. Nos basamos en tres factores Calidad, Tiempo y Costo. Podemos mover los dos ultimos, pero no el primero",
+  },
+  {
+    question: "7. ¿Qué hago si la autoridad no me responde?",
+    answer:
+      "Incista y agote todos los recursos, recuerde que la autoridad son personas y con las personas se puede hablar y se puede razonar",
+  },
+  {
+    question: "8. ¿Son expertos en todo?",
+    answer:
+      "No, no existen los expertos en todo, somos expertos en cumplimiento regulatorio y trabajamos con expertos en muchas ramas.",
+  },
+  {
+    question: "9. ¿Qué pasa si la autoridad me hace una prevención sobre alguno de sus servicios?",
+    answer:
+      "Las prevenciones son una práctica común, todos nuestros servicios incluyen el soporte y atención de éstas.",
+  },
+  {
+    question: "10. ¿Pueden hacer las gestiones físicas ante los reguladores?",
+    answer:
+      "Sí, tenemos personal dedicado a esto en la CDMX.",
+  },
+  {
+    question: "11. ¿Tienen experiencia en los trámites?",
+    answer:
+      "Tenemos experiencia en todos los aspectos y desde todos los puntos de vista de los trámites. Nuestro personal conoce de primera mano los procesos internos y los criterios de los reguladores.",
+  },
+  {
+    question: "12. ¿Sus cursos tienen reconocimiento oficial?",
+    answer:
+      "Todos nuestros cursos están registrados en la STPS. Emitimos Constancia de Competencias Laborales DC-3 y contamos con un registro abierto en nuestro sitio: www.iktantraining.com",
   },
   
 ]

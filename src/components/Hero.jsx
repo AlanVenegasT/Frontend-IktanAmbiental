@@ -7,7 +7,8 @@ const craterRock = "/img8FO.png";
 export default function Hero() {
   return (
     <>
-     <HeroSlider className="pt-18 bg-black "
+    
+     <HeroSlider className="pt-18 bg-black  "
       height={"100vh"}
       autoplay
       controller={{
@@ -78,6 +79,7 @@ export default function Hero() {
 
       
     </HeroSlider>
+    
     </>
   );
 }

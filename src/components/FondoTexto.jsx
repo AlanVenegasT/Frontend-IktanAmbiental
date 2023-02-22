@@ -26,7 +26,7 @@ const FondoTexto = () => {
 
 
         <div className="relative py-24 sm:py-32 md:py-20  lg:ml-12 lg:py-24 lg:px-8">
-          <div className=" pr-6 pl-6 md:pl-16 md:mx-20  lg:pl-24 lg:pr-0 lg:translate-x-80 xl:mx-0 xl:pl-0 xl:pr-[700px] xl:translate-x-[700px] ">
+          <div className=" pr-6 pl-6 md:pl-16 md:mx-20  lg:pl-24 lg:pr-60 lg:translate-x-80 xl:mx-0 xl:pl-0 xl:pr-[700px] xl:translate-x-[700px] ">
             <h3 className="font-medium text-lg md:text-center md:text-base bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
               PPCIEM
             </h3>

@@ -27,7 +27,7 @@ const Tecnologia = () => {
       <div className=" flex flex-col md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row -translate-y-28 " > {/*Cuadros de texto */}
         <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row my-5 md:my-0 lg:my-0 xl:my-0  mt-28 md:mt-0 lg:mt-0 xl:mt-0 basis-1/2 bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#6FCC36] mx-3">
             <div className="basis-1/3 flex justify-center ">
-              <img className="h-44 mt-4 md:h-44 md:mt-8 lg:h-44 lg:mt-8 xl:h-52 xl:mt-12" src="n1053-removebg-preview.png" alt="" />
+              <img className="h-44 mt-4 md:h-44 md:mt-8 lg:h-44 lg:mt-8 xl:h-52 xl:mt-12" src="TerAu.png" alt="" />
             </div>
             <div className="basis-2/3">
               <h3 className="text-white font-semibold  pl-5 pt-6 pb-4 text-xl md:text-xl md:pl-5 md:pt-6 md:pb-3 lg:text-xl lg:pl-5 lg:pt-8 lg:pb-6 xl:text-2xl xl:pl-5 xl:pt-14 xl:pb-6 ">Tercero Autorizado ASEA</h3>

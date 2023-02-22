@@ -117,7 +117,7 @@ const Contacto = () => {
                     value={nombre}
                     onChange={e=>setNombre(e.target.value)}
                     placeholder="Cristian Muños"
-                    className="w-full bg-transparent rounded border border-[#80A9F4] text-base lg:text-sm xl:text-base outline-none text-gray-700 py-1 px-3 lg:py-1 lg:px-3  leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-transparent rounded border border-[#80A9F4] text-xs lg:text-xs xl:text-xs outline-none text-white py-2 px-3 lg:py-2 lg:px-3  leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
 
@@ -135,7 +135,7 @@ const Contacto = () => {
                     value={email}
                     onChange={e=>setEmail(e.target.value)}
                     placeholder="Cristianmuños@gmail.com"
-                    className="w-full bg-transparent rounded border border-[#80A9F4] text-base lg:text-sm xl:text-base outline-none text-gray-700 py-1 px-3 lg:py-1 lg:px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-transparent rounded border border-[#80A9F4] text-xs lg:text-xs xl:text-xs outline-none text-white py-2 px-3 lg:py-2 lg:px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Contacto = () => {
                   name="message"
                   value={message}
                   onChange={e=>setMessage(e.target.value)}
-                  className="w-full caret-pink-500 bg-transparent rounded border border-[#80A9F4] h-32 lg:h-20 xl:h-32 text-base lg:text-sm xl:text-base outline-none text-gray-700 py-1 px-3 lg:py-0 lg:px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full caret-pink-500 bg-transparent rounded border border-[#80A9F4] h-32 lg:h-20 xl:h-32 text-base lg:text-sm xl:text-base outline-none text-white py-1 px-3 lg:py-0 lg:px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
 
@@ -214,13 +214,13 @@ const Contacto = () => {
                 <div className=" basis-1/2 ">
                   <a href="https://api.whatsapp.com/send?phone=5540478317&amp;text=%20Hola!%20Queria%20ponerme%20en%20contacto%20con%20un%20experto%20de%20IKTAN%20Ambiental!">
                     <img
-                      className=" h-16 w-auto ml-20 md:ml-6 lg:ml-16 xl:ml-42 "
+                      className=" h-16 w-auto ml-20 md:ml-6 lg:ml-16 xl:ml-42 cursor-pointer"
                       src="WA.png"
                       alt=""
                     />
                   </a>
                 </div>
-                <div className=" basis-1/2">
+                <div className=" basis-1/2 cursor-pointer">
                   <p className="text-white md:text-xs lg:text-xs mt-2 ">
                     Asistente de WhatsApp
                   </p>

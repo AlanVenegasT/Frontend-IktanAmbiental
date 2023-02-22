@@ -14,7 +14,7 @@ const posts = [
       name: "Impacto Ambiental",
       href: "#",
       imageUrl:
-        'Libroverde.png',
+        'Imagen verdeRec.png',
     },
   },
   {
@@ -29,7 +29,7 @@ const posts = [
       name: "PPCIEM",
       href: "#",
       imageUrl:
-        'Libroverde.png',
+        'RueditaRec.png',
     },
   },
   {
@@ -44,7 +44,7 @@ const posts = [
       name: "SASISOPA",
       href: "#",
       imageUrl:
-        'Libroverde.png',
+        'Emergenciarecortada.png',
     },
   },
   {
@@ -59,7 +59,7 @@ const posts = [
       name: "Residuos",
       href: "#",
       imageUrl:
-        'Libroverde.png',
+        'ResiduosRec.png',
     },
   },
 ];
@@ -99,9 +99,9 @@ const Cumplimiento = () => {
                 className="flex flex-col overflow-hidden   "
               >
                 <div className="flex flex-1 flex-col justify-between rounded-xl relative overflow-hidden h-full bg-[400%] text-white mx-10 md:mx-12 md:px-4 py-5 md:py-7 lg:mx-4 lg:px-4 lg:py-7 xl:mx-4 xl:px-4 xl:py-7   hover:before:scale-x-100 hover:text-[blue] before:content-[''] before:absolute before:origin-[0_50%] before:w-full before:h-[inherit] before:transition-all before:duration-[0.475s] before:rounded-[inherit] before:scale-x-0 before:left-0 before:top-0 bg-transparent before:bg-white ">
-                  <div className="flex-1 relative z-[1]">
+                  <div className="flex-1 relative z-[1] flex flex-col items-center ">
 
-                  <img className="h-20 w-20 rounded-full ml-4" src={post.author.imageUrl} alt="" />
+                  <img className="h-20 w-20   ml-4" src={post.author.imageUrl} alt="" />
 
                     <a href={post.href} className="mt-2  block">
                       
