@@ -342,7 +342,7 @@ const Header = () => {
                 {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="/"
                   className="block border-l-4 border-green-500 bg-slate-100 py-2 pl-3 pr-4 text-base font-medium text-green-700 sm:pl-5 sm:pr-6"
                 >
                   Home
