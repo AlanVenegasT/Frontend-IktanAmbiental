@@ -30,20 +30,20 @@ const NuestroTrabajo = () => {
           </div>
 
           <div className="">{/*Imagenes */}
-            <div className=" flex flex-row pb-5">{/*Imagenes arriba */}
-              <div className="basis-1/4 px-3">{/*Imagen arriba 1 */}
+            <div className=" flex flex-col md:flex-row lg:flex-row xl:flex-row pb-5">{/*Imagenes arriba */}
+              <div className="basis-1/3 md:basis-1/4 lg:basis-1/4 xl:basis-1/4 px-3 py-1 md:py-0 lg:py-0 xl:py-0 ">{/*Imagen arriba 1 */}
               <div class="hover">
               <h4>IT Management</h4>
                 <img className="rounded-lg " src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/15.jpg" alt="" />
                 </div>
               </div>
-              <div className="basis-2/4 px-2 ">{/*Imagen arriba 2 */}
+              <div className="basis-1/3 md:basis-2/4 lg:basis-2/4 xl:basis-2/4 px-3 py-1 md:py-0 lg:py-0 xl:py-0 ">{/*Imagen arriba 2 */}
               <div class="hovir">
                 <h4>Cyber Security</h4>
                <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/13.jpg" alt="" />
                </div>
               </div>
-              <div className="basis-1/4 px-3">{/*Imagen arriba 3 */}
+              <div className="basis-1/3 md:basis-1/4 lg:basis-1/4 xl:basis-1/4 px-3 py-1 md:py-0 lg:py-0 xl:py-0">{/*Imagen arriba 3 */}
               <div class="hover">
                 <h4>Cloud Computing</h4>
                <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/3.jpg" alt="" />
@@ -51,20 +51,20 @@ const NuestroTrabajo = () => {
               </div>
 
             </div>
-            <div className="flex flex-row"> {/*Imagenes abajo */}
-              <div className="basis-1/3 px-3">{/*Imagen abajo 1 */}
+            <div className=" flex flex-col md:flex-row lg:flex-row xl:flex-row"> {/*Imagenes abajo */}
+              <div className="basis-1/3  px-3  py-1 md:py-0 lg:py-0 xl:py-0 ">{/*Imagen abajo 1 */}
               <div class="hovor">
                 <h4>Software Dev</h4>
                 <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/5.jpg" alt="" />
                 </div>
               </div>
-              <div className="basis-1/3 px-3">{/*Imagen abajo 2 */}
+              <div className="basis-1/3 px-3 py-1 md:py-0 lg:py-0 xl:py-0 ">{/*Imagen abajo 2 */}
               <div class="hovor">
                 <h4>Software Dev</h4>
                <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/7.jpg" alt="" />
                </div>
               </div>
-              <div className="basis-1/3 px-3">{/*Imagen abajo 3 */}
+              <div className="basis-1/3 px-3 py-1 md:py-0 lg:py-0 xl:py-0 ">{/*Imagen abajo 3 */}
               <div class="hovor">
                 <h4>Software Dev</h4>
                 <img className="rounded-lg" src="https://validthemes.live/themeforest/crysa/assets/img/portfolio/8.jpg" alt="" />

@@ -18,7 +18,7 @@ const FondoTexto = () => {
       <div className="relative bg-[#091D3E] mt-20 md:mt-0 lg:mt-12 xl:mt-20" id="PPCIEM">
         <div className="relative  h-80 overflow-hidden bg-[#091D3E] md:absolute md:left-0 md:h-full md:w-3/3 md:blur-md lg:blur-0 lg:w-1/2">
           <img
-            className="mt-0 h-[700px] translate-x-16 lg:mt-20 lg:h-[500px] lg:translate-x-16 xl:mt-0 xl:h-[700px] xl:translate-x-16  object-cover  "
+            className=" mt-0 h-[400px] translate-x-0  md:mt-20 md:h-[500px] md:translate-x-16 lg:mt-20 lg:h-[500px] lg:translate-x-16 xl:mt-0 xl:h-[700px] xl:translate-x-16  object-cover  "
             src="camara.png"
             alt=""
           />
