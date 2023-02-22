@@ -15,7 +15,7 @@ const Banner = () => {
     {estado ? <> 
       <div className="fixed w-full z-50 inset-x-0 bottom-0">
         <div className="bg-[#0C3858] opacity-50">
-          <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
             <div className="flex flex-wrap items-center justify-between">
               <div className="flex w-0 flex-1 items-center">
               <span className="flex rounded-lg bg-white p-2">

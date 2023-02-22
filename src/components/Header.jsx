@@ -11,8 +11,8 @@ function classNames(...classes) {
 const Header = () => {
   return (
     <>
-      <nav class="bg-white fixed z-50 shadow-lg navbar">
-        <div class="hidden lg:block xl:block w-full px-2 sm:px-6 lg:px-0 ">
+      <nav class="bg-white fixed z-50 shadow-lg navbar w-full ">
+        <div class="hidden lg:block xl:block  w-full px-2 sm:px-6 lg:px-0 ">
           <div class="relative flex h-26 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button

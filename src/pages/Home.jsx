@@ -1,12 +1,10 @@
 import React from "react";
-
-
+import Hero from "../components/Hero";
 import Blog from "../components/Blog";
 import Contacto from "../components/Contacto";
 import Cumplimiento from "../components/Cumplimiento";
 import Faqs from "../components/Faqs";
 import FondoTexto from "../components/FondoTexto";
-import Hero from "../components/Hero";
 import Imagen2en1 from "../components/Imagen2en1";
 import NuestroTrabajo from "../components/NuestroTrabajo";
 import Somos from "../components/Somos";
@@ -16,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Somos />
+       <Somos />
 
       <Cumplimiento />
       <Tecnologia />
@@ -26,7 +24,7 @@ const Home = () => {
       <FondoTexto/>
       <Blog />
       <Faqs/>  
-      <Contacto />
+      <Contacto /> 
     </>
   );
 };

@@ -8,9 +8,9 @@ const NuestroTrabajo = () => {
  
   useEffect(() => {
     ScrollReveal().reveal(revealRef.current, {
-      duration: 12000,
+      duration: 4000,
       origin: 'left',
-      distance: '-500px'
+      distance: '400px'
 
     });
   }, []);
