@@ -35,7 +35,7 @@ const Blog = () => {
  
   useEffect(() => {
     ScrollReveal().reveal(revealRef.current, {
-      duration: 15000,
+      duration: 12000,
       origin: 'right',
       distance: '-500px'
 
