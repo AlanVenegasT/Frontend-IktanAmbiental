@@ -101,6 +101,13 @@
     
 }
 
+@media (max-width: 640px) {
+    .hovir img {
+    max-width: 100%;
+    height: 300px;
+    }
+    }
+
 .hovir:hover img{
     transform: scale(1.6) rotate(10deg);
 }
@@ -181,6 +188,13 @@
     transition: all 300ms;
     
 }
+
+@media (max-width: 640px) {
+    .hovor img {
+    max-width: 100%;
+    height: 300px;
+    }
+    }
 
 .hovor:hover img{
     transform: scale(1.6) rotate(10deg);

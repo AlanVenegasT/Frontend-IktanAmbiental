@@ -71,7 +71,7 @@ const Tecnologia = () => {
         
         
         <a href="#faqs">
-          <button type="button" class="inline-flex items-center rounded-md   px-12 py-4 my-8  mr-20 mb-[700px] md:mb-64 lg:mb-0 xl:mb-0 text-base font-medium bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] text-white shadow-sm ">FAQs</button>
+          <button type="button" className="inline-flex items-center rounded-md   px-12 py-4 my-8  mr-20 mb-[700px] md:mb-64 lg:mb-0 xl:mb-0 text-base font-medium bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] text-white shadow-sm ">FAQs</button>
           </a>
           </div>
           <div className="basis-1/2">

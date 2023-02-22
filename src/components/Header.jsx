@@ -11,66 +11,71 @@ function classNames(...classes) {
 const Header = () => {
   return (
     <>
-      <nav class="bg-white fixed z-50 shadow-lg navbar w-full ">
-        <div class="hidden lg:block xl:block  w-full px-2 sm:px-6 lg:px-0 ">
-          <div class="relative flex h-26 items-center justify-between">
-            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+      <nav className="bg-white fixed z-50 shadow-lg navbar w-full ">
+        <div className="hidden lg:block xl:block  w-full px-2 sm:px-6 lg:px-0 ">
+          <div className="relative flex h-26 items-center justify-between">
+            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
-                class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
-                <span class="sr-only">Open main menu</span>
+                <span className="sr-only">Open main menu</span>
                 <svg
-                  class="block h-6 w-6"
+                  className="block h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                   />
                 </svg>
                 <svg
-                  class="hidden h-6 w-6"
+                  className="hidden h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>
               </button>
             </div>
 
-            <div class="flex flex-row w-full  items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex flex-row w-full  items-center justify-center sm:items-stretch sm:justify-start">
               {" "}
               {/*Div padre */}
               <div class="basis-1/6 ">
                 {" "}
                 {/*Div hijo1 */}
+              <Link to="/">
                 <img
                   class="block h-full w-auto lg:hidden py-6 px-4 lg:py-8 lg:px-4 xl:py-8 xl:px-4"
                   src="LOGO IKTAN AMBIENTAL.png"
                   alt="Your Company"
                 />
+              </Link>
+
+              <Link to="/">
                 <img
                   class="hidden h-full w-auto  lg:block py-6 px-4 lg:py-8 lg:px-4 xl:py-8 xl:px-4"
                   src="LOGO IKTAN AMBIENTAL.png"
                   alt="Your Company"
                 />
+                </Link>
               </div>
               <div class="flex flex-col  sm:block basis-5/6">
                 {/*Div hijo2 */}
@@ -204,9 +209,9 @@ const Header = () => {
                           stroke="currentColor"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                           />
                         </svg>
@@ -286,11 +291,13 @@ const Header = () => {
                     </Disclosure.Button>
                   </div>
                   <div className="flex flex-shrink-0 items-center">
+                  <Link to="/">
                     <img
                       className="block h-2/3 w-auto lg:hidden"
                       src="LOGO IKTAN AMBIENTAL.png"
                       alt="Your Company"
                     />
+                  </Link>
                     <img
                       className="hidden h-8 w-auto lg:block"
                       src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
