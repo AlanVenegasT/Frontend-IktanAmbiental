@@ -30,7 +30,7 @@ const Tecnologia = () => {
               <img className="h-44 mt-4 md:h-44 md:mt-8 lg:h-44 lg:mt-8 xl:h-52 xl:mt-12" src="TerAu.png" alt="" />
             </div>
             <div className="basis-2/3">
-              <h3 className="text-white font-semibold  pl-5 pt-6 pb-4 text-xl md:text-xl md:pl-5 md:pt-6 md:pb-3 lg:text-xl lg:pl-5 lg:pt-8 lg:pb-6 xl:text-2xl xl:pl-5 xl:pt-14 xl:pb-6 ">Tercero Autorizado ASEA</h3>
+              <h3 className="text-white font-semibold  pl-5 pt-6 pb-4 text-xl md:text-xl md:pl-5 md:pt-6 md:pb-3 lg:text-xl lg:pl-5 lg:pt-8 lg:pb-6 xl:text-2xl xl:pl-5 xl:pt-10 xl:pb-6 ">Tercero Autorizado ASEA</h3>
               <p className="text-white text-justify px-5 leading-5 pb-6  text-sm md:leading-8 md:pb-6 md:text-base lg:leading-8 lg:pb-6 lg:text-base xl:leading-8 xl:pb-12 xl:text-lg ">Somos Tercero Autorizados para emitir los Dictámenes Técnicos y realizar las Evaluaciones Técnicas, para las actividades de exploración y extracción de hidrocarburos en yacimientos convencionales y no convencionales. TA-D-A02/06-16/2021</p>
               
             </div>
@@ -62,7 +62,7 @@ const Tecnologia = () => {
 
           <div className="flex">
           <p className="pl-8 italic pr-20 md:pr-60 lg:pr-32 text-justify leading-8 lg:leading-6 xl:leading-8 text-base lg:text-base xl:text-base" >Y si crees que una clausura es cara, espera
-              a ver lo que cuesta un accidente. <img className="h-6 ml-44 -translate-y-8 lg:ml-48 lg:-translate-y-6 lg:translate-x-10 xl:ml-44 xl:-translate-y-8 " src="comillasSF.png" alt="" /> </p>
+              a ver lo que cuesta un accidente. <img className="h-6 ml-56 -translate-y-8 lg:ml-48 lg:-translate-y-6 lg:translate-x-10 xl:ml-44 xl:-translate-y-8 " src="comillasSF.png" alt="" /> </p>
           
           </div>
 

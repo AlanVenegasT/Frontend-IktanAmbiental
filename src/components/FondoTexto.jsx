@@ -6,7 +6,7 @@ const FondoTexto = () => {
  
   useEffect(() => {
     ScrollReveal().reveal(revealRef.current, {
-      duration: 12000,
+      duration: 10000,
       origin: 'bottom',
       distance: '-500px'
 

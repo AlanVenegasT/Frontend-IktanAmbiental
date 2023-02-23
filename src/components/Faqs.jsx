@@ -72,7 +72,7 @@ const Faqs = () => {
  
   useEffect(() => {
     ScrollReveal().reveal(revealRef.current, {
-      duration: 12000,
+      duration: 10000,
       origin: 'bottom',
       distance: '400px'
 
@@ -81,7 +81,7 @@ const Faqs = () => {
   return (
     <>
     <div ref={revealRef}>
-    <div className="bg-white">
+    <div className="bg-white" id="#faqs" >
       <div className="mx-auto max-w-7xl px-5 pt-0 pb-20 md:pb-20 md:pt-0  lg:pt-0 lg:pb-20 lg:px-8 xl:pb-20">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <h2 className="text-4xl font-bold leading-10 tracking-tight text-black text-center" id='faqs'>Preguntas frecuentes</h2>

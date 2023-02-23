@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/politicas" element={<Politicas />} />
           <Route path="blog/:title" element={<ArticuloBlog />} />
-          <Route path="pagina-no-encontrada" element={<Pagina404 />} />
+          <Route path="/pagina-no-encontrada" element={<Pagina404 />} />
         </Route>
       </Routes>
     </BrowserRouter>

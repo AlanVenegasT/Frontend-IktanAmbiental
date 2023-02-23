@@ -84,8 +84,8 @@ const Header = () => {
                 <div className="flex  justify-between w-full bg-[#091D3E] pb-2 pt-2">
                   <div className="text-white flex">
                     <h2 className=" pl-16 pr-10   ">
-                      Need Help?{" "}
-                      <span className="font-semibold"> Request A Callback</span>
+                    ¿Necesita ayuda?{" "}
+                      <span className="font-semibold"> ¡Déjanos llamarte! </span>
                     </h2>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ const Header = () => {
                       <circle cx="12" cy="12" r="10"></circle>
                       <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
-                    <h2 className=" pl-2">Working Hours: 8:00 AM – 7:45 PM</h2>
+                    <h2 className=" pl-2">Horario de trabajo: 9:00 AM – 5:00 PM</h2>
                   </div>
 
                   <div className="flex  ">
@@ -349,21 +349,21 @@ const Header = () => {
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#PPCIEM"
                   className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
                 >
                   PPCIEM
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#servicios"
                   className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
                 >
                   Servicios
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#contacto"
                   className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
                 >
                   Contacto

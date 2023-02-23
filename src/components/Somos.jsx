@@ -69,7 +69,7 @@ y los servicios necesarios para que logren el desarrollo exitoso de proyectos en
 
           <div className="flex">
             <h2 className="text-6xl md:text-7xl mt-10 lg:mt-5 xl:mt-10 font-bold text-green-600 ">95%</h2>
-            <h3 className="pr-24 md:pr-72 lg:pr-40 xl:pr-40 pt-16 md:pt-16 lg:pt-10 xl:pt-28 pl-4 font-bold text-[#232323] lg:text-xs xl:text-lg  ">Satisfacción del Cliente 2022.</h3>
+            <h3 className="pr-24 md:pr-72 lg:pr-40 xl:pr-40 pt-16 md:pt-16 lg:pt-10 xl:pt-14 pl-4 font-bold text-[#232323] lg:text-xs xl:text-lg  ">Satisfacción del Cliente 2022.</h3>
           </div>
           <p className="font-bold text-xs lg:text-[9px]  xl:text-xs mt-3 md:mt-5 lg:mt-0 xl:mt-0 ">*Datos de la encuesta digital de satisfacción a diciembre de 2022.*</p>
 

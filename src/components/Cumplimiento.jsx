@@ -4,7 +4,7 @@ import ScrollReveal from 'scrollreveal';
 const posts = [
   {
     title: "Boost your conversion rate",
-    href: "#",
+    href: "",
     description:
       "Desarrollo y Gestión de MIA, IP, LAU y Cambio de Uso de Suelo ",
     imageUrl:
@@ -12,14 +12,14 @@ const posts = [
     readingTime: "6 min",
     author: {
       name: "Impacto Ambiental",
-      href: "#",
+      href: "",
       imageUrl:
         'Imagen verdeRec.png',
     },
   },
   {
     title: "How to use search engine optimization to drive sales",
-    href: "#",
+    href: "",
     description:
     "Detección y cuantificación de emisiones de metano – OGI",
     imageUrl:
@@ -27,14 +27,14 @@ const posts = [
     readingTime: "4 min",
     author: {
       name: "PPCIEM",
-      href: "#",
+      href: "",
       imageUrl:
         'RueditaRec.png',
     },
   },
   {
     title: "Improve your customer experience",
-    href: "#",
+    href: "",
     description:
     "Auditorías Internas y Externas; Protocolos de Respuesta a Emergencias",
     imageUrl:
@@ -42,14 +42,14 @@ const posts = [
     readingTime: "11 min",
     author: {
       name: "SASISOPA",
-      href: "#",
+      href: "",
       imageUrl:
         'Emergenciarecortada.png',
     },
   },
   {
     title: "How to use search engine optimization to drive sales",
-    href: "#",
+    href: "",
     description:
     "Planes de Manejo de Residuos – RP y RMA; Programa de Prevención de Accidentes (PPA)",
     imageUrl:
@@ -57,7 +57,7 @@ const posts = [
     readingTime: "4 min",
     author: {
       name: "Residuos",
-      href: "#",
+      href: "",
       imageUrl:
         'ResiduosRec.png',
     },
@@ -103,7 +103,7 @@ const Cumplimiento = () => {
 
                   <img className="h-20 w-20   ml-4" src={post.author.imageUrl} alt="" />
 
-                    <a href={post.href} className="mt-2  block">
+                    <a  className="mt-2  block">
                       
                       <p className="mt-3  text-justify text-sm md:text-sm lg:text-sm xl:text-base text-gray-500 leading-7 px-8 md:px-8 lg:px-3  xl:px-5  ">
                         {post.description}
