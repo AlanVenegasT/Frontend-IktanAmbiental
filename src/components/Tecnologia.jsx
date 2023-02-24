@@ -9,7 +9,7 @@ const Tecnologia = () => {
  
   useEffect(() => {
     ScrollReveal().reveal(revealRef.current, {
-      duration: 4000,
+      duration: 3000,
       origin: 'left',
       distance: '400px'
 

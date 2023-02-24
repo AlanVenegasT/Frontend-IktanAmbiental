@@ -72,7 +72,7 @@ const Faqs = () => {
  
   useEffect(() => {
     ScrollReveal().reveal(revealRef.current, {
-      duration: 10000,
+      duration: 3000,
       origin: 'bottom',
       distance: '400px'
 

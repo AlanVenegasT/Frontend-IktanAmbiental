@@ -249,7 +249,7 @@ const Header = () => {
                   <div className="text-white flex">
                     <h2 className=" pl-16 pr-10 hidden md:block  ">
                       Need Help?{" "}
-                      <span className="font-semibold"> Request A Callback</span>
+                      <span className="font-semibold">  ¡Déjanos llamarte! </span>
                     </h2>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +266,7 @@ const Header = () => {
                       <circle cx="12" cy="12" r="10"></circle>
                       <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
-                    <h2 className=" pl-2">Working Hours: 8:00 AM – 7:45 PM</h2>
+                    <h2 className=" pl-2">Horario de trabajo: 9:00 AM – 5:00 PM</h2>
                   </div>
 
                 </div>

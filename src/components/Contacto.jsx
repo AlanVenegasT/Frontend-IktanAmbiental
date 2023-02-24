@@ -8,14 +8,18 @@ const Contacto = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [terminos, setTerminos] = useState(false);
+  
 
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!terminos) {
+      alert("Debe aceptar los términos y condiciones para enviar el formulario");
+      return;
+    }
     alert("El formulario se ha enviado");
-
-    if ([nombre, email, message].includes()) {
+    if ([nombre, email, message].includes("")) {
       console.log("alerta todos los campos son obligatorios");
     } else {
       sendEmail(e);
@@ -54,7 +58,7 @@ const Contacto = () => {
 
   // useEffect(() => {
   //   ScrollReveal().reveal(revealRef.current, {
-  //     duration: 10000,
+  //     duration: 3000,
   //     origin: "top",
   //     distance: "-100px",
   //   });
@@ -215,7 +219,7 @@ const Contacto = () => {
 
                 <button
                   type="submit"
-                  className=" flex justify-center text-white bg-[#022391] border-0 py-2 px-6 lg:py-1 xl:py-2  focus:outline-none hover:bg-green-600 rounded text-lg lg:text-base xl:text-lg "
+                  className=" flex justify-center text-white bg-[#022391] border-0 py-2 px-6 lg:py-1 xl:py-2  focus:outline-none hover:bg-green-600 duration-700 rounded text-lg lg:text-base xl:text-lg "
                 >
                   Enviar{" "}
                   <svg
