@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     // Simular una carga de 2 segundos
-    setTimeout(() => setIsLoading(false), 2000);
+    setTimeout(() => setIsLoading(false), 5000);
   }, []);
 
 
