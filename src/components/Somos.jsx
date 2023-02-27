@@ -27,9 +27,9 @@ const Somos = () => {
           <div className="absolute md:w-[360px] md:h-[70px] md:translate-x-80 md:-translate-y-[450px] lg:w-[187px] lg:h-[70px] lg:translate-x-48 lg:-translate-y-[380px] xl:w-[320px] xl:h-[70px] xl:translate-x-80 xl:-translate-y-[640px] bg-white "></div>
           <div className="absolute md:w-[440px] md:h-[70px] md:-translate-x-[120px] md:-translate-y-16 lg:w-[320px] lg:h-[70px] lg:-translate-x-[120px] lg:-translate-y-16 xl:w-[320px] xl:h-[70px] xl:translate-x-0 xl:-translate-y-16 bg-white "></div>
 
-          <div className="absolute flex flex-row h-[100px] w-[335px] translate-x-5 -translate-y-0 md:h-[100px] md:w-[380px] md:-translate-x-8 md:-translate-y-40 lg:h-[100px] lg:w-[300px] lg:-translate-x-8 lg:-translate-y-40 xl:h-[150px] xl:w-[420px] xl:-translate-x-8 xl:-translate-y-52 bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] ">
+          <div className="absolute flex flex-row h-[100px] w-[335px] translate-x-5 -translate-y-0 md:h-[100px] md:w-[380px] md:-translate-x-8 md:-translate-y-40 lg:h-[100px] lg:w-[300px] lg:-translate-x-8 lg:-translate-y-40 xl:h-[150px] xl:w-[420px] xl:-translate-x-6 xl:-translate-y-52 bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] ">
             <div className="1/4 pt-4 pl-4">
-           <img className=" h-16 w-36 md:h-20 md:w-40 lg:h-28 lg:w-44 xl:h-28 xl:w-44" src="Exp.png" alt="" />
+           <img className=" h-16 w-36 -translate-y-0 md:h-20 md:w-40 md:-translate-y-0 lg:h-24 lg:w-40 lg:-translate-y-4  xl:h-28 xl:w-44 xl:-translate-y-0" src="Exp.png" alt="" />
             </div>
             <div className="3/4">
               <h3 className=" text-white font-semibold  px-3 pt-3 pb-1 text-xs md:pt-3 md:pb-1 md:text-sm  lg:pt-3 lg:pb-1 lg:text-sm xl:text-lg xl:pt-5 xl:pb-3 ">Experiencia y Conocimiento</h3>

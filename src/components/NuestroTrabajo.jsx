@@ -25,7 +25,7 @@ const NuestroTrabajo = () => {
               CASOS DE EXITO 
             </h2>
             <h3 className="font-semibold text-xl md:text-2xl lg:text-2xl xl:text-4xl text-center md:px-52 lg:px-80 xl:px-80 pb-20 md:pb-12 lg:pb-12 xl:pb-20">
-            Nuestros clientes son la mejor recomendación
+            Nuestros valores
             </h3>
           </div>
 

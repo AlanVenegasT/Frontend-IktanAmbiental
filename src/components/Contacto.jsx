@@ -144,7 +144,7 @@ const Contacto = () => {
                       name="user_name"
                       value={nombre}
                       onChange={(e) => setNombre(e.target.value)}
-                      placeholder="Cristian Muños"
+                      placeholder="Cristian Aldair"
                       className="w-full bg-transparent rounded border border-[#80A9F4] text-xs lg:text-xs xl:text-xs outline-none text-white py-2 px-3 lg:py-3 lg:px-3  leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
@@ -162,7 +162,7 @@ const Contacto = () => {
                       name="user_email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Cristianmuños@gmail.com"
+                      placeholder="CristianAldair@gmail.com"
                       className="w-full bg-transparent rounded border border-[#80A9F4] text-xs lg:text-xs xl:text-xs outline-none text-white py-2 px-3 lg:py-3 lg:px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>

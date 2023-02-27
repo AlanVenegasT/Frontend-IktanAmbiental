@@ -272,12 +272,14 @@ const Politicas = () => {
           </p>
 
           <div className="mt-3 pb-20 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+            <a href="/">
                 <button
                   type="submit"
                   className="float-right animate-bounce   rounded-lg  bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] duration-700 py-2 px-6 text-base  text-white font-semibold hover:bg-[#BACB5A] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 shadow-2xl"
                 >
                   Acepto
                 </button>
+                </a>
               </div>
           
           </div>
