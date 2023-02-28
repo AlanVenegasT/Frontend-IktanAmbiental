@@ -5,12 +5,17 @@ const Loader = () => {
     <div className="flex h-screen w-screen items-center justify-center">
       <body>
 
-      <div className="container">
-        <span class="ring"></span>
-        <span class="ring"></span>
-        <span class="ring"></span>
-        <p>Loading.......</p>
-      </div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+
       </body>
 
     </div>
