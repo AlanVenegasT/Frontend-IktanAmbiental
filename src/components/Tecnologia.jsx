@@ -57,12 +57,12 @@ const Tecnologia = () => {
           
           <div className="flex">
           <img className="h-6 mr-2 " src="comillasSF.png" alt="comillas" />
-          <p className="pr-20 md:pr-60 lg:pr-32 italic text-justify leading-8 lg:leading-6 xl:leading-8 text-base lg:text-base xl:text-base ">Si crees que cumplir es caro, espera aver lo que cuesta una clausura...</p>
+          <p className="pr-20 md:pr-60 lg:pr-32 italic text-justify leading-8 lg:leading-6 xl:leading-8 text-base lg:text-base xl:text-base ">Si crees que cumplir es caro, espera ver lo que cuesta una clausura...</p>
           </div>
 
           <div className="flex">
           <p className="pl-8 italic pr-20 md:pr-60 lg:pr-32 text-justify leading-8 lg:leading-6 xl:leading-8 text-base lg:text-base xl:text-base" >Y si crees que una clausura es cara, espera
-              a ver lo que cuesta un accidente. <img className="h-6 ml-56 -translate-y-8 lg:ml-48 lg:-translate-y-6 lg:translate-x-10 xl:ml-44 xl:-translate-y-8 " src="comillasSF.png" alt="" /> </p>
+               ver lo que cuesta un accidente. <img className="h-6 ml-56 -translate-y-8 lg:ml-48 lg:-translate-y-6 lg:translate-x-10 xl:ml-44 xl:-translate-y-8 " src="comillasSF.png" alt="" /> </p>
           
           </div>
 

@@ -26,7 +26,7 @@ const cards = [
     titulo: "Programas de Manejo de Residuos",
     fecha: "Diciembre, 2022",
     descripcion:
-      "Al principio no se pude distinguir balatas de buena o mala calidad, por eso es importante adquirir una marca que cuente con pruebas de seguridad...",
+      "Al principio no se pueden distinguir balatas de buena o mala calidad, por eso es importante adquirir una marca que cuente con pruebas de seguridad...",
   },
 ];
 

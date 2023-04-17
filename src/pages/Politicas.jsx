@@ -76,7 +76,7 @@ const Politicas = () => {
            
           <h1> 
             <span className="mt-2 mb-12 block text-center text-3xl font-bold leading-8 tracking-tight lg:pt-12 text-black sm:text-4xl">
-              Politicas de Privacidad
+              Políticas de Privacidad
             </span>
           </h1>
         </div>
@@ -87,8 +87,8 @@ const Politicas = () => {
           <p className='mb-6 mt-6 text-black '>
           Este <b>Aviso de Privacidad</b> tiene por objeto proporcionarle una visión clara de cómo usamos los datos personales que el titular de datos personales (en lo sucesivo “Usted”)
           nos proporciona, nuestros esfuerzos por protegerlos, las opciones que tiene para controlar sus datos personales y proteger su privacidad, asimismo, la forma en que utilizamos 
-          sus datos personales y los terceros con los que la compartiremos. <b>IKTAN IKTAN Ambiental S.A.P.I DE C.V </b> (en lo sucesivo <b>IKTAN Strategies</b>) informa, mediante el presente Aviso de
-          Privacidad integral y en relación con el uso y protección de los datos personales que Usted ponga a disposición de <b>IKTAN Strategies</b>, lo siguiente:
+          sus datos personales y los terceros con los que la compartiremos. <b>IKTAN IKTAN Ambiental S.A.P.I DE C.V </b> (en lo sucesivo <b>IKTAN Ambiental</b>) informa, mediante el presente Aviso de
+          Privacidad integral y en relación con el uso y protección de los datos personales que Usted ponga a disposición de <b>IKTAN Ambiental</b>, lo siguiente:
           </p>
           <p className='mb-6 mt-6 text-black '>
           En cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y su Reglamento (en lo sucesivo, la <b>"Ley de Datos"</b>), así como de conformidad
@@ -109,7 +109,7 @@ const Politicas = () => {
           proporcionalidad y responsabilidad, establecidos en la Ley de Datos y su Reglamento.
           </p>
           <p className='mb-6 mt-6 text-black '>
-          Al proporcionar sus datos personales a <b>IKTAN Strategies</b>, Usted otorga su consentimiento para que recabe y utilice dichos datos únicamente para los fines descritos en el presente 
+          Al proporcionar sus datos personales a <b>IKTAN Ambiental</b>, Usted otorga su consentimiento para que recabe y utilice dichos datos únicamente para los fines descritos en el presente 
           Aviso de Privacidad.
           </p>
           <h2 className='mb-6 mt-6 font-bold text-[#33A86A]'>

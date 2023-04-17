@@ -22,7 +22,7 @@ const NuestroTrabajo = () => {
           <div className="pt-14 md:pt-20 lg:pt-20 xl:pt-28 ">
             {/*Texto */}
             <h2 className="font-medium text-center text-base md:text-base lg:text-lg xl:text-base bg-clip-text text-transparent bg-gradient-to-r from-[#0F4FBB] to-[#02BEF8] ">
-              CASOS DE EXITO 
+              CASOS DE ÉXITO 
             </h2>
             <h3 className="font-semibold text-xl md:text-2xl lg:text-2xl xl:text-4xl text-center md:px-52 lg:px-80 xl:px-80 pb-20 md:pb-12 lg:pb-12 xl:pb-20">
             Nuestros valores

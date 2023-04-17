@@ -45,7 +45,7 @@ const FondoTexto = () => {
               <div className="flex flex-row basis-1/2 pl-2">
                 <img className="basis-1/3 h-14 w-auto" src="Telefonno2.png" alt="" />
                 <p className="basis-2/3 text-xsf  items-center text-white">
-                Tienes dudas?{" "}
+                ¿Tienes dudas?{" "}
                   <span className="font-bold"> Rodolfo.castro@iktanst.com</span>{" "}
                 </p>
               </div>

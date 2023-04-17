@@ -84,7 +84,7 @@ const Contacto = () => {
               <div className="bg-transparent relative flex flex-col pb-0 md:pb-28 lg:pb-28 xl:pb-28 ">
                 <div className="lg:w-3/3 xl:w-2/3  px-0 ">
                   <h2 className="font-medium xl:text-lg text-lg text-white lg:text-base ">
-                    ESCRIBENOS
+                    ESCRÍBENOS
                   </h2>
                   <p className="mt-1  text-2xl font-bold text-white lg:text-xl xl:text-2xl ">
                     Siempre hay alguien para ayudarte a responder todas tus
@@ -202,7 +202,7 @@ const Contacto = () => {
                         {" "}
                         <span className="font-bold md:text-xs lg:text-xs underline ">
                           {" "}
-                          Politicas de Privacidad
+                          Políticas de Privacidad
                         </span>{" "}
                       </Link>{" "}
                       y{" "}

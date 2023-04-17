@@ -32,7 +32,7 @@ const faqs = [
   {
     question: "6. ¿Se puede hacer el trabajo en menos tiempo?",
     answer:
-      "Sí, siempre se puede. Nos basamos en tres factores Calidad, Tiempo y Costo. Podemos mover los dos ultimos, pero no el primero",
+      "Sí, siempre se puede. Nos basamos en tres factores Calidad, Tiempo y Costo. Podemos mover los dos últimos, pero no el primero",
   },
   {
     question: "7. ¿Qué hago si la autoridad no me responde?",

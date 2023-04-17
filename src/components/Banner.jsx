@@ -32,7 +32,7 @@ const Banner = () => {
                   href="https://iktanstrategies.com/"
                   className="flex items-center justify-center rounded-md border-2 border-white bg-transparent px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-50 hover:text-[#0C3858] duration-700 "
                 >
-                  Conocenos
+                  Conócenos
                 </a>
               </div>
               <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
