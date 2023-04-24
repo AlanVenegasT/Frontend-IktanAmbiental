@@ -21,8 +21,7 @@ const Tecnologia = () => {
      <div ref={revealRef}> 
     <div className="w-full">
 
-    <img className="absolute md:hidden  h-[500px] md:h-[500px] lg:h-[500px] xl:h-[550px] flex right-0 translate-y-52 lg:translate-y-52 xl:translate-y-72" src=" Lineas.png " alt="" />
-
+    
      <div className=" mx-auto md:max-w-2xl lg:max-w-7xl xl:max-w-7xl "> {/*Div general */}
       <div className=" flex flex-col md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row -translate-y-28 " > {/*Cuadros de texto */}
         <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row my-5 md:my-0 lg:my-0 xl:my-0  mt-28 md:mt-0 lg:mt-0 xl:mt-0 basis-1/2 bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#6FCC36] mx-3">

@@ -106,7 +106,7 @@ const Header = () => {
                     </svg>
                     
 
-                    <h2 className=" pl-2">Horario de trabajo: 9:00 AM – 17:00 PM</h2>
+                    <h2 className=" pl-2">Horario de atención las 24 Horas.</h2>
                   </div>
 
                   <div className="flex  ">
@@ -276,7 +276,7 @@ const Header = () => {
                       <circle cx="12" cy="12" r="10"></circle>
                       <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
-                    <h2 className=" pl-2">Horario de trabajo: 9:00 AM – 17:00 PM</h2>
+                    <h2 className=" pl-2">Horario de atención las 24 Horas.</h2>
                   </div>
 
                 </div>
