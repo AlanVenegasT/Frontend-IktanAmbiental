@@ -114,7 +114,7 @@ const Cumplimiento = () => {
                     <div className="ml-3">
                       <p className="text-xl font-medium text-gray-900 ">
                         <a
-                          href={post.author.href}
+                          
                           className="hover:text-[#0D6ADB] duration-500 "
                         >
                           <div className="flex justify-between items-center text-base lg:text-sm xl:text-lg ">
