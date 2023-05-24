@@ -1,20 +1,17 @@
 import React from 'react'
-import '../css/Hero2.css'
+
 
  const Hero2 = () => {
   return (
     <>
-        <div class="html">
-        <div class="body">
-        <div class=" kodfun-galeri">
-        <div class=" bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20200621/pngtree-abstract-modern-neon-frame-background-image_339537.jpg')]">s saaaaaaaaaaaa aa</div>
-        <div class=" bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20200621/pngtree-abstract-modern-neon-frame-background-image_339537.jpg')]">s saaaaaaaaaaaa aa </div>
-        <div class=" bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20200621/pngtree-abstract-modern-neon-frame-background-image_339537.jpg')]">s saaaaaaaaaaaa aa </div>
-        <div class=" bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20200621/pngtree-abstract-modern-neon-frame-background-image_339537.jpg')]">s saaaaaaaaaaaa aa </div>
-        <div class=" bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20200621/pngtree-abstract-modern-neon-frame-background-image_339537.jpg')]">s saaaaaaaaaaaa aa </div>
-        </div>
-        </div>
-        </div>
+       
+       <div className="flex overflow-x-hidden h-screen w-full">
+  <img className="w-1/5 flex-1 object-cover transition duration-500 ease-in-out hover:w-1/3 hover:opacity-90" src="Cielo azulFO.png" alt="" />
+  <img className="w-1/5 flex-1 object-cover transition duration-500 ease-in-out hover:w-1/3 hover:opacity-90" src="VálvulasFO.png" alt="" />
+  <img className="w-1/5 flex-1 object-cover transition duration-500 ease-in-out hover:w-1/3 hover:opacity-90" src="img8FO.png" alt="" />          
+  <img className="w-1/5 flex-1 object-cover transition duration-500 ease-in-out hover:w-1/3 hover:opacity-90" src="Cielo azulFO.png" alt="" />
+  <img className="w-1/5 flex-1 object-cover transition duration-500 ease-in-out hover:w-1/3 hover:opacity-90" src="VálvulasFO.png" alt="" />
+</div>
     </>
   )
 }

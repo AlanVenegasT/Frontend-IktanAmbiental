@@ -7,7 +7,7 @@ import AuthLayout from "./layouts/AuthLayout";
 import { IndexLayout } from "./layouts/IndexLayout";
 import Home from "./pages/Home";
 import Loader from "./components/Loader";
-import Hero2 from "./components/Hero2";
+ import Hero2 from "./components/Hero2";
 
 function App() {
 
@@ -31,7 +31,7 @@ function App() {
             <Route path="blog/:title" element={<ArticuloBlog />} />
             <Route path="*" element={<Pagina404 />} />
           </Route>
-          <Route path="/hero2" element={<Hero2 />} />
+          <Route path="/hero2" element={<Hero2 />} /> 
         </Routes>
       </BrowserRouter>
         </>)}

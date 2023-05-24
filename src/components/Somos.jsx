@@ -23,8 +23,8 @@ const Somos = () => {
       <div className=" mx-auto flex flex-col md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row max-w-7xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl  mt-20 md:mt-32 lg:mt-20 xl:mt-32 "> {/*Padre */}
         <div className=" basis-1/2 ">  {/*Imagen */}
           <img className="relative px-5 md:px-0 lg:px-0 xl:px-0 " src="Inspector 1.jpg" alt="" />
-          <div className="absolute md:w-[12px] md:h-[400px] md:translate-x-80 md:-translate-y-[380px] lg:w-[12px] lg:h-[650px] lg:translate-x-48 lg:-translate-y-[380px] xl:w-[15px] xl:h-[650px] xl:translate-x-80 xl:-translate-y-[640px] bg-white  "></div>
-          <div className="absolute md:w-[360px] md:h-[70px] md:translate-x-80 md:-translate-y-[450px] lg:w-[187px] lg:h-[70px] lg:translate-x-48 lg:-translate-y-[380px] xl:w-[320px] xl:h-[70px] xl:translate-x-80 xl:-translate-y-[640px] bg-white "></div>
+          {/* <div className="absolute md:w-[12px] md:h-[400px] md:translate-x-80 md:-translate-y-[380px] lg:w-[12px] lg:h-[650px] lg:translate-x-48 lg:-translate-y-[380px] xl:w-[15px] xl:h-[650px] xl:translate-x-80 xl:-translate-y-[640px] bg-white  "></div> */}
+          {/* <div className="absolute md:w-[360px] md:h-[70px] md:translate-x-80 md:-translate-y-[450px] lg:w-[187px] lg:h-[70px] lg:translate-x-48 lg:-translate-y-[380px] xl:w-[320px] xl:h-[70px] xl:translate-x-80 xl:-translate-y-[640px] bg-white "></div> */}
           <div className="absolute md:w-[440px] md:h-[70px] md:-translate-x-[120px] md:-translate-y-16 lg:w-[320px] lg:h-[70px] lg:-translate-x-[120px] lg:-translate-y-16 xl:w-[320px] xl:h-[70px] xl:translate-x-0 xl:-translate-y-16 bg-white "></div>
 
           <div className="absolute flex flex-row h-[100px] w-[335px] translate-x-5 -translate-y-0 md:h-[100px] md:w-[380px] md:-translate-x-8 md:-translate-y-40 lg:h-[100px] lg:w-[300px] lg:-translate-x-8 lg:-translate-y-40 xl:h-[150px] xl:w-[420px] xl:-translate-x-6 xl:-translate-y-52 bg-gradient-to-r from-[#0C6201] via-[#6FCC36] to-[#B7E163] ">

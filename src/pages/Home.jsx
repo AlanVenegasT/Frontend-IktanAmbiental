@@ -9,7 +9,7 @@ import Imagen2en1 from "../components/Imagen2en1";
 import NuestroTrabajo from "../components/NuestroTrabajo";
 import Somos from "../components/Somos";
 import Tecnologia from "../components/Tecnologia";
-import Hero2 from "../components/Hero2";
+
 
 const Home = () => {
   return (
